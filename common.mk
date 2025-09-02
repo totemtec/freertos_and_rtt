@@ -1,7 +1,8 @@
 
 
 # use vector test
-RISCV := /nfs/home/daiqisen/01_work/riscv-tools/bin/riscv32-unknown-elf-
+#RISCV := /nfs/home/daiqisen/01_work/riscv-tools/bin/riscv32-unknown-elf-
+RISCV := /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/riscv-none-elf-
 
 # use gcc-interrupt
 # RISCV := /nfs/app/riscv_32f/bin/riscv32-unknown-elf-
@@ -57,8 +58,11 @@ $(ASM_OBJS): %.o: %.S
 $(C_OBJS): %.o: %.c
 	$(RISCV_GCC) $(CFLAGS) $(INCLUDES) -c -o $@ $< -lm -lgcc
 
-UART_TEST=../../sim_room/test_case/$(TAR_NAME)
-SOME_DIR=../../../smoke_test/test_case/core_memory
+#UART_TEST=../../sim_room/test_case/$(TAR_NAME)
+UART_TEST=../sim_room/test_case/$(TAR_NAME)
+
+#SOME_DIR=../../../smoke_test/test_case/core_memory
+SOME_DIR=../smoke_test/test_case/core_memory
 
 LINK_NAME:=$(TAR_NAME)
 

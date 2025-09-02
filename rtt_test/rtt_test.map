@@ -1,8 +1,8 @@
 Archive member included to satisfy reference by file (symbol)
 
-/home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
+/home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-memset.o)
                               task/task1_big.o (memset)
-/home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+/home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-strlen.o)
                               task/task1_big.o (strlen)
 
 Discarded input sections
@@ -15,17 +15,17 @@ Discarded input sections
  .data          0x00000000        0x0 Atom.o
  .bss           0x00000000        0x0 Atom.o
  .riscv.attributes
-                0x00000000       0xcf Atom.o
+                0x00000000       0xba Atom.o
  .text          0x00000000       0x24 task_rvv/vec-vadd.o
  .data          0x00000000        0x0 task_rvv/vec-vadd.o
  .bss           0x00000000        0x0 task_rvv/vec-vadd.o
  .riscv.attributes
-                0x00000000       0xcf task_rvv/vec-vadd.o
+                0x00000000       0xba task_rvv/vec-vadd.o
  .text          0x00000000       0x24 task_rvv/vec-vmul.o
  .data          0x00000000        0x0 task_rvv/vec-vmul.o
  .bss           0x00000000        0x0 task_rvv/vec-vmul.o
  .riscv.attributes
-                0x00000000       0xcf task_rvv/vec-vmul.o
+                0x00000000       0xba task_rvv/vec-vmul.o
  .text          0x00000000        0x0 common/start.o
  .data          0x00000000        0x0 common/start.o
  .bss           0x00000000        0x0 common/start.o
@@ -135,11 +135,11 @@ Discarded input sections
  .text          0x00000000        0x0 myrtt/src/cpu.o
  .data          0x00000000        0x0 myrtt/src/cpu.o
  .bss           0x00000000        0x0 myrtt/src/cpu.o
- .comment       0x00000000       0x10 myrtt/src/cpu.o
+ .comment       0x00000000       0x34 myrtt/src/cpu.o
  .note.GNU-stack
                 0x00000000        0x0 myrtt/src/cpu.o
  .riscv.attributes
-                0x00000000       0xd1 myrtt/src/cpu.o
+                0x00000000       0xbc myrtt/src/cpu.o
  .text          0x00000000        0x0 myrtt/src/idle.o
  .data          0x00000000        0x0 myrtt/src/idle.o
  .bss           0x00000000        0x0 myrtt/src/idle.o
@@ -196,11 +196,11 @@ Discarded input sections
                 0x00000000      0x212 myrtt/src/ipc.o
  .text.rt_mb_control
                 0x00000000       0x8c myrtt/src/ipc.o
- .comment       0x00000000       0x10 myrtt/src/ipc.o
+ .comment       0x00000000       0x34 myrtt/src/ipc.o
  .note.GNU-stack
                 0x00000000        0x0 myrtt/src/ipc.o
  .riscv.attributes
-                0x00000000       0xd1 myrtt/src/ipc.o
+                0x00000000       0xbc myrtt/src/ipc.o
  .text          0x00000000        0x0 myrtt/src/irq.o
  .data          0x00000000        0x0 myrtt/src/irq.o
  .bss           0x00000000        0x0 myrtt/src/irq.o
@@ -239,10 +239,12 @@ Discarded input sections
  .text.skip_atoi
                 0x00000000       0x5a myrtt/src/kservice.o
  .text.print_number
-                0x00000000      0x282 myrtt/src/kservice.o
+                0x00000000      0x27a myrtt/src/kservice.o
  .rodata        0x00000000        0x7 myrtt/src/kservice.o
  .text.rt_vsnprintf
-                0x00000000      0x6ae myrtt/src/kservice.o
+                0x00000000      0x65a myrtt/src/kservice.o
+ .rodata.rt_vsnprintf
+                0x00000000       0x84 myrtt/src/kservice.o
  .text.rt_snprintf
                 0x00000000       0x60 myrtt/src/kservice.o
  .text.rt_vsprintf
@@ -256,27 +258,27 @@ Discarded input sections
  .text          0x00000000        0x0 myrtt/src/mem.o
  .data          0x00000000        0x0 myrtt/src/mem.o
  .bss           0x00000000        0x0 myrtt/src/mem.o
- .comment       0x00000000       0x10 myrtt/src/mem.o
+ .comment       0x00000000       0x34 myrtt/src/mem.o
  .note.GNU-stack
                 0x00000000        0x0 myrtt/src/mem.o
  .riscv.attributes
-                0x00000000       0xd1 myrtt/src/mem.o
+                0x00000000       0xbc myrtt/src/mem.o
  .text          0x00000000        0x0 myrtt/src/memheap.o
  .data          0x00000000        0x0 myrtt/src/memheap.o
  .bss           0x00000000        0x0 myrtt/src/memheap.o
- .comment       0x00000000       0x10 myrtt/src/memheap.o
+ .comment       0x00000000       0x34 myrtt/src/memheap.o
  .note.GNU-stack
                 0x00000000        0x0 myrtt/src/memheap.o
  .riscv.attributes
-                0x00000000       0xd1 myrtt/src/memheap.o
+                0x00000000       0xbc myrtt/src/memheap.o
  .text          0x00000000        0x0 myrtt/src/mempool.o
  .data          0x00000000        0x0 myrtt/src/mempool.o
  .bss           0x00000000        0x0 myrtt/src/mempool.o
- .comment       0x00000000       0x10 myrtt/src/mempool.o
+ .comment       0x00000000       0x34 myrtt/src/mempool.o
  .note.GNU-stack
                 0x00000000        0x0 myrtt/src/mempool.o
  .riscv.attributes
-                0x00000000       0xd1 myrtt/src/mempool.o
+                0x00000000       0xbc myrtt/src/mempool.o
  .text          0x00000000        0x0 myrtt/src/object.o
  .data          0x00000000        0x0 myrtt/src/object.o
  .bss           0x00000000        0x0 myrtt/src/object.o
@@ -294,11 +296,11 @@ Discarded input sections
  .text          0x00000000        0x0 myrtt/src/slab.o
  .data          0x00000000        0x0 myrtt/src/slab.o
  .bss           0x00000000        0x0 myrtt/src/slab.o
- .comment       0x00000000       0x10 myrtt/src/slab.o
+ .comment       0x00000000       0x34 myrtt/src/slab.o
  .note.GNU-stack
                 0x00000000        0x0 myrtt/src/slab.o
  .riscv.attributes
-                0x00000000       0xd1 myrtt/src/slab.o
+                0x00000000       0xbc myrtt/src/slab.o
  .text          0x00000000        0x0 myrtt/src/thread.o
  .data          0x00000000        0x0 myrtt/src/thread.o
  .bss           0x00000000        0x0 myrtt/src/thread.o
@@ -353,16 +355,16 @@ Discarded input sections
                 0x00000000       0x66 task_rvv/rvv_main.o
  .text.rvv_main_mul
                 0x00000000       0xc8 task_rvv/rvv_main.o
- .comment       0x00000000       0x10 task_rvv/rvv_main.o
+ .comment       0x00000000       0x34 task_rvv/rvv_main.o
  .note.GNU-stack
                 0x00000000        0x0 task_rvv/rvv_main.o
  .riscv.attributes
-                0x00000000       0xd1 task_rvv/rvv_main.o
+                0x00000000       0xbc task_rvv/rvv_main.o
  .text          0x00000000        0x0 ../common/../lib/utils.o
  .data          0x00000000        0x0 ../common/../lib/utils.o
  .bss           0x00000000        0x0 ../common/../lib/utils.o
  .text.get_cycle_value
-                0x00000000       0x6e ../common/../lib/utils.o
+                0x00000000       0x6a ../common/../lib/utils.o
  .text.busy_wait
                 0x00000000       0x82 ../common/../lib/utils.o
  .text.delay_ms
@@ -416,23 +418,23 @@ Discarded input sections
  .text.htif_console_getchar
                 0x00000000       0x14 ../common/../lib/htif.o
  .text.do_tohost_fromhost
-                0x00000000       0xee ../common/../lib/htif.o
+                0x00000000       0xf0 ../common/../lib/htif.o
  .text.htif_syscall
                 0x00000000       0x28 ../common/../lib/htif.o
  .text.htif_console_putchar
                 0x00000000       0x62 ../common/../lib/htif.o
  .text.htif_poweroff
                 0x00000000       0x18 ../common/../lib/htif.o
- .comment       0x00000000       0x10 ../common/../lib/htif.o
+ .comment       0x00000000       0x34 ../common/../lib/htif.o
  .note.GNU-stack
                 0x00000000        0x0 ../common/../lib/htif.o
  .riscv.attributes
-                0x00000000       0xd1 ../common/../lib/htif.o
- .data          0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
- .bss           0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
- .text          0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
- .data          0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
- .bss           0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+                0x00000000       0xbc ../common/../lib/htif.o
+ .data          0x00000000        0x0 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-memset.o)
+ .text          0x00000000        0x0 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-strlen.o)
+ .data          0x00000000        0x0 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-strlen.o)
+ .bss           0x00000000        0x0 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-strlen.o)
 
 Memory Configuration
 
@@ -481,17 +483,17 @@ LOAD task_rvv/rvv_main.o
 LOAD ../common/../lib/utils.o
 LOAD ../common/../lib/uart.o
 LOAD ../common/../lib/htif.o
-LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/libgcc.a
+LOAD /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/rv32imafdc_zicsr/ilp32d/libgcc.a
 START GROUP
-LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a
-LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libgloss.a
+LOAD /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a
+LOAD /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libgloss.a
 END GROUP
-LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/libgcc.a
+LOAD /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/rv32imafdc_zicsr/ilp32d/libgcc.a
                 0x00008000                        _stack_len = LENGTH (stack)
                 0x00040000                        _stack_start = (ORIGIN (stack) + LENGTH (stack))
                 0x00040000                        _stack_end = (ORIGIN (stack) + LENGTH (stack))
 
-.text           0x00000000     0x7164
+.text           0x00000000     0x7000
  *(.text.start)
  .text.start    0x00000000     0x1304 common/start.o
                 0x00000000                __start
@@ -580,401 +582,405 @@ LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin
                 0x00001d8c       0x32 main.o
                 0x00001d8c                open_plic_ie
  .text.plic_irq_base_handler
-                0x00001dbe      0x100 main.o
+                0x00001dbe       0x6c main.o
                 0x00001dbe                plic_irq_base_handler
  .text.irq_test_delay
-                0x00001ebe       0x1e main.o
-                0x00001ebe                irq_test_delay
+                0x00001e2a       0x1e main.o
+                0x00001e2a                irq_test_delay
  .text.plic_irq_vec_handler_0
-                0x00001edc       0xa8 main.o
-                0x00001edc                plic_irq_vec_handler_0
+                0x00001e48       0xa2 main.o
+                0x00001e48                plic_irq_vec_handler_0
  .text.plic_irq_vec_handler_1
-                0x00001f84       0xb0 main.o
-                0x00001f84                plic_irq_vec_handler_1
+                0x00001eea       0xae main.o
+                0x00001eea                plic_irq_vec_handler_1
  .text.plic_irq_vec_handler_2
-                0x00002034       0xb0 main.o
-                0x00002034                plic_irq_vec_handler_2
+                0x00001f98       0xb0 main.o
+                0x00001f98                plic_irq_vec_handler_2
  .text.plic_irq_vec_handler_3
-                0x000020e4       0xb2 main.o
-                0x000020e4                plic_irq_vec_handler_3
+                0x00002048       0xb2 main.o
+                0x00002048                plic_irq_vec_handler_3
  .text.plic_irq_vec_handler_4
-                0x00002196       0xb2 main.o
-                0x00002196                plic_irq_vec_handler_4
+                0x000020fa       0xb2 main.o
+                0x000020fa                plic_irq_vec_handler_4
  .text.plic_irq_vec_handler_5
-                0x00002248       0xb2 main.o
-                0x00002248                plic_irq_vec_handler_5
+                0x000021ac       0xb2 main.o
+                0x000021ac                plic_irq_vec_handler_5
  .text.plic_irq_vec_handler_6
-                0x000022fa       0xb2 main.o
-                0x000022fa                plic_irq_vec_handler_6
+                0x0000225e       0xb2 main.o
+                0x0000225e                plic_irq_vec_handler_6
  .text.plic_irq_vec_handler_7
-                0x000023ac       0xb2 main.o
-                0x000023ac                plic_irq_vec_handler_7
+                0x00002310       0xb2 main.o
+                0x00002310                plic_irq_vec_handler_7
  .text.plic_irq_vec_handler_8
-                0x0000245e       0xb2 main.o
-                0x0000245e                plic_irq_vec_handler_8
+                0x000023c2       0xb2 main.o
+                0x000023c2                plic_irq_vec_handler_8
  .text.plic_irq_vec_handler_9
-                0x00002510       0xb2 main.o
-                0x00002510                plic_irq_vec_handler_9
+                0x00002474       0xb2 main.o
+                0x00002474                plic_irq_vec_handler_9
  .text.thread_m
-                0x000025c2       0xc4 main.o
-                0x000025c2                thread_m
- .text.main     0x00002686      0x210 main.o
-                0x00002686                main
+                0x00002526       0xc4 main.o
+                0x00002526                thread_m
+ .text.main     0x000025ea      0x210 main.o
+                0x000025ea                main
  .text.ext_int_default_interrupt_handler
-                0x00002896       0x12 plic.o
-                0x00002896                ext_int_default_interrupt_handler
+                0x000027fa       0x12 plic.o
+                0x000027fa                ext_int_default_interrupt_handler
  .text.PLIC_init
-                0x000028a8       0xa8 plic.o
-                0x000028a8                PLIC_init
+                0x0000280c       0xa8 plic.o
+                0x0000280c                PLIC_init
  .text.PLIC_set_threshold
-                0x00002950       0x20 plic.o
-                0x00002950                PLIC_set_threshold
+                0x000028b4       0x20 plic.o
+                0x000028b4                PLIC_set_threshold
  .text.PLIC_get_threshold
-                0x00002970       0x18 plic.o
-                0x00002970                PLIC_get_threshold
+                0x000028d4       0x18 plic.o
+                0x000028d4                PLIC_get_threshold
  .text.PLIC_get_claim
-                0x00002988       0x1a plic.o
-                0x00002988                PLIC_get_claim
+                0x000028ec       0x1a plic.o
+                0x000028ec                PLIC_get_claim
  .text.PLIC_sourceX_cfg
-                0x000029a2       0x74 plic.o
-                0x000029a2                PLIC_sourceX_cfg
+                0x00002906       0x74 plic.o
+                0x00002906                PLIC_sourceX_cfg
  .text.set_tmp_data
-                0x00002a16       0x82 task/task1_big.o
-                0x00002a16                set_tmp_data
- .text.big_max  0x00002a98       0x30 task/task1_big.o
-                0x00002a98                big_max
- .text.setZero  0x00002ac8       0x48 task/task1_big.o
-                0x00002ac8                setZero
- .text.compare  0x00002b10       0xde task/task1_big.o
-                0x00002b10                compare
- .text.copy     0x00002bee       0xa8 task/task1_big.o
-                0x00002bee                copy
- .text.big_add  0x00002c96      0x25a task/task1_big.o
-                0x00002c96                big_add
- .text.big_sub  0x00002ef0      0x3e0 task/task1_big.o
-                0x00002ef0                big_sub
- .text.big_mul  0x000032d0      0x2cc task/task1_big.o
-                0x000032d0                big_mul
- .text.big_div  0x0000359c      0x39a task/task1_big.o
-                0x0000359c                big_div
+                0x0000297a       0x82 task/task1_big.o
+                0x0000297a                set_tmp_data
+ .text.big_max  0x000029fc       0x30 task/task1_big.o
+                0x000029fc                big_max
+ .text.setZero  0x00002a2c       0x48 task/task1_big.o
+                0x00002a2c                setZero
+ .text.compare  0x00002a74       0xde task/task1_big.o
+                0x00002a74                compare
+ .text.copy     0x00002b52       0xa8 task/task1_big.o
+                0x00002b52                copy
+ .text.big_add  0x00002bfa      0x25a task/task1_big.o
+                0x00002bfa                big_add
+ .text.big_sub  0x00002e54      0x3e0 task/task1_big.o
+                0x00002e54                big_sub
+ .text.big_mul  0x00003234      0x2cc task/task1_big.o
+                0x00003234                big_mul
+ .text.big_div  0x00003500      0x39a task/task1_big.o
+                0x00003500                big_div
  .text.task_big
-                0x00003936      0x114 task/task1_big.o
-                0x00003936                task_big
- .text.swap     0x00003a4a       0x42 task/task2_sort.o
-                0x00003a4a                swap
+                0x0000389a      0x114 task/task1_big.o
+                0x0000389a                task_big
+ .text.swap     0x000039ae       0x42 task/task2_sort.o
+                0x000039ae                swap
  .text.BubSort_main
-                0x00003a8c      0x18e task/task2_sort.o
-                0x00003a8c                BubSort_main
+                0x000039f0      0x18e task/task2_sort.o
+                0x000039f0                BubSort_main
  .text.task_search
-                0x00003c1a       0xbe task/task3_path.o
-                0x00003c1a                task_search
+                0x00003b7e       0xbe task/task3_path.o
+                0x00003b7e                task_search
  .text.search_path
-                0x00003cd8      0x14a task/task3_path.o
-                0x00003cd8                search_path
+                0x00003c3c      0x14a task/task3_path.o
+                0x00003c3c                search_path
  .text.maxSum_1
-                0x00003e22       0xdc task/task4_maxs.o
-                0x00003e22                maxSum_1
+                0x00003d86       0xdc task/task4_maxs.o
+                0x00003d86                maxSum_1
  .text.task_maxs
-                0x00003efe       0xb2 task/task4_maxs.o
-                0x00003efe                task_maxs
+                0x00003e62       0x9e task/task4_maxs.o
+                0x00003e62                task_maxs
  .text.middleFilter
-                0x00003fb0      0x1a8 task/task5_filter.o
-                0x00003fb0                middleFilter
+                0x00003f00      0x1a8 task/task5_filter.o
+                0x00003f00                middleFilter
  .text.task_filter
-                0x00004158       0x86 task/task5_filter.o
-                0x00004158                task_filter
+                0x000040a8       0x86 task/task5_filter.o
+                0x000040a8                task_filter
  .text.task_find
-                0x000041de       0x70 task/task6_find.o
-                0x000041de                task_find
- .text.Find     0x0000424e       0x58 task/task6_find.o
-                0x0000424e                Find
+                0x0000412e       0x70 task/task6_find.o
+                0x0000412e                task_find
+ .text.Find     0x0000419e       0x58 task/task6_find.o
+                0x0000419e                Find
  .text.BinarySearch1
-                0x000042a6       0x9e task/task6_find.o
-                0x000042a6                BinarySearch1
+                0x000041f6       0x9e task/task6_find.o
+                0x000041f6                BinarySearch1
  .text.test_float_val
-                0x00004344       0x20 task/task7_float_test.o
-                0x00004344                test_float_val
+                0x00004294       0x20 task/task7_float_test.o
+                0x00004294                test_float_val
  .text.float_test_error
-                0x00004364      0x3b6 task/task7_float_test.o
-                0x00004364                float_test_error
+                0x000042b4      0x3b6 task/task7_float_test.o
+                0x000042b4                float_test_error
  .text.rt_hw_board_init
-                0x0000471a       0x16 myrtt/board.o
-                0x0000471a                rt_hw_board_init
+                0x0000466a       0x16 myrtt/board.o
+                0x0000466a                rt_hw_board_init
  .text.rt_tick_get
-                0x00004730       0x1a myrtt/src/clock.o
-                0x00004730                rt_tick_get
+                0x00004680       0x1a myrtt/src/clock.o
+                0x00004680                rt_tick_get
  .text.rt_tick_increase
-                0x0000474a       0x5c myrtt/src/clock.o
-                0x0000474a                rt_tick_increase
+                0x0000469a       0x5c myrtt/src/clock.o
+                0x0000469a                rt_tick_increase
  .text.rti_board_start
-                0x000047a6       0x14 myrtt/src/components.o
+                0x000046f6       0x14 myrtt/src/components.o
  .text.rti_board_end
-                0x000047ba       0x14 myrtt/src/components.o
- .text.rti_end  0x000047ce       0x14 myrtt/src/components.o
+                0x0000470a       0x14 myrtt/src/components.o
+ .text.rti_end  0x0000471e       0x14 myrtt/src/components.o
  .text.rt_components_board_init
-                0x000047e2       0x40 myrtt/src/components.o
-                0x000047e2                rt_components_board_init
+                0x00004732       0x40 myrtt/src/components.o
+                0x00004732                rt_components_board_init
  .text.rt_components_init
-                0x00004822       0x40 myrtt/src/components.o
-                0x00004822                rt_components_init
- .text.entry    0x00004862       0x16 myrtt/src/components.o
-                0x00004862                entry
+                0x00004772       0x40 myrtt/src/components.o
+                0x00004772                rt_components_init
+ .text.entry    0x000047b2       0x16 myrtt/src/components.o
+                0x000047b2                entry
  .text.main_thread_entry
-                0x00004878       0x20 myrtt/src/components.o
-                0x00004878                main_thread_entry
+                0x000047c8       0x20 myrtt/src/components.o
+                0x000047c8                main_thread_entry
  .text.rt_application_init
-                0x00004898       0x54 myrtt/src/components.o
-                0x00004898                rt_application_init
+                0x000047e8       0x54 myrtt/src/components.o
+                0x000047e8                rt_application_init
  .text.rtthread_startup
-                0x000048ec       0x36 myrtt/src/components.o
-                0x000048ec                rtthread_startup
+                0x0000483c       0x36 myrtt/src/components.o
+                0x0000483c                rtthread_startup
  .text.rt_list_remove
-                0x00004922       0x48 myrtt/src/idle.o
+                0x00004872       0x48 myrtt/src/idle.o
  .text._has_defunct_thread
-                0x0000496a       0x34 myrtt/src/idle.o
+                0x000048ba       0x34 myrtt/src/idle.o
  .text.rt_thread_idle_excute
-                0x0000499e       0x9c myrtt/src/idle.o
-                0x0000499e                rt_thread_idle_excute
+                0x000048ee       0x9c myrtt/src/idle.o
+                0x000048ee                rt_thread_idle_excute
  .text.rt_thread_idle_entry
-                0x00004a3a       0x12 myrtt/src/idle.o
+                0x0000498a       0x12 myrtt/src/idle.o
  .text.rt_thread_idle_init
-                0x00004a4c       0x4e myrtt/src/idle.o
-                0x00004a4c                rt_thread_idle_init
+                0x0000499c       0x4e myrtt/src/idle.o
+                0x0000499c                rt_thread_idle_init
  .text.rt_interrupt_enter
-                0x00004a9a       0x3e myrtt/src/irq.o
-                0x00004a9a                rt_interrupt_enter
+                0x000049ea       0x3e myrtt/src/irq.o
+                0x000049ea                rt_interrupt_enter
  .text.rt_interrupt_leave
-                0x00004ad8       0x3e myrtt/src/irq.o
-                0x00004ad8                rt_interrupt_leave
+                0x00004a28       0x3e myrtt/src/irq.o
+                0x00004a28                rt_interrupt_leave
  .text.rt_memset
-                0x00004b16      0x126 myrtt/src/kservice.o
-                0x00004b16                rt_memset
+                0x00004a66      0x126 myrtt/src/kservice.o
+                0x00004a66                rt_memset
  .text.rt_strncpy
-                0x00004c3c       0x92 myrtt/src/kservice.o
-                0x00004c3c                rt_strncpy
+                0x00004b8c       0x92 myrtt/src/kservice.o
+                0x00004b8c                rt_strncpy
  .text.rt_show_version
-                0x00004cce       0x12 myrtt/src/kservice.o
-                0x00004cce                rt_show_version
+                0x00004c1e       0x12 myrtt/src/kservice.o
+                0x00004c1e                rt_show_version
  .text.__rt_ffs
-                0x00004ce0       0xa4 myrtt/src/kservice.o
-                0x00004ce0                __rt_ffs
+                0x00004c30       0xa4 myrtt/src/kservice.o
+                0x00004c30                __rt_ffs
  .text.rt_list_insert_after
-                0x00004d84       0x46 myrtt/src/object.o
+                0x00004cd4       0x46 myrtt/src/object.o
  .text.rt_list_remove
-                0x00004dca       0x48 myrtt/src/object.o
+                0x00004d1a       0x48 myrtt/src/object.o
  .text.rt_object_get_information
-                0x00004e12       0x60 myrtt/src/object.o
-                0x00004e12                rt_object_get_information
+                0x00004d62       0x60 myrtt/src/object.o
+                0x00004d62                rt_object_get_information
  .text.rt_object_init
-                0x00004e72       0xb4 myrtt/src/object.o
-                0x00004e72                rt_object_init
+                0x00004dc2       0xb4 myrtt/src/object.o
+                0x00004dc2                rt_object_init
  .text.rt_object_detach
-                0x00004f26       0x3c myrtt/src/object.o
-                0x00004f26                rt_object_detach
+                0x00004e76       0x3c myrtt/src/object.o
+                0x00004e76                rt_object_detach
  .text.rt_object_is_systemobject
-                0x00004f62       0x2c myrtt/src/object.o
-                0x00004f62                rt_object_is_systemobject
+                0x00004eb2       0x2c myrtt/src/object.o
+                0x00004eb2                rt_object_is_systemobject
  .text.rt_list_init
-                0x00004f8e       0x2c myrtt/src/scheduler.o
+                0x00004ede       0x2c myrtt/src/scheduler.o
  .text.rt_list_insert_before
-                0x00004fba       0x46 myrtt/src/scheduler.o
+                0x00004f0a       0x46 myrtt/src/scheduler.o
  .text.rt_list_remove
-                0x00005000       0x48 myrtt/src/scheduler.o
+                0x00004f50       0x48 myrtt/src/scheduler.o
  .text.rt_list_isempty
-                0x00005048       0x2c myrtt/src/scheduler.o
+                0x00004f98       0x2c myrtt/src/scheduler.o
  .text.rt_system_scheduler_init
-                0x00005074       0x66 myrtt/src/scheduler.o
-                0x00005074                rt_system_scheduler_init
+                0x00004fc4       0x66 myrtt/src/scheduler.o
+                0x00004fc4                rt_system_scheduler_init
  .text.rt_system_scheduler_start
-                0x000050da       0x52 myrtt/src/scheduler.o
-                0x000050da                rt_system_scheduler_start
+                0x0000502a       0x52 myrtt/src/scheduler.o
+                0x0000502a                rt_system_scheduler_start
  .text.rt_schedule
-                0x0000512c       0xd0 myrtt/src/scheduler.o
-                0x0000512c                rt_schedule
+                0x0000507c       0xd0 myrtt/src/scheduler.o
+                0x0000507c                rt_schedule
  .text.rt_schedule_insert_thread
-                0x000051fc       0x8a myrtt/src/scheduler.o
-                0x000051fc                rt_schedule_insert_thread
+                0x0000514c       0x8a myrtt/src/scheduler.o
+                0x0000514c                rt_schedule_insert_thread
  .text.rt_schedule_remove_thread
-                0x00005286       0x70 myrtt/src/scheduler.o
-                0x00005286                rt_schedule_remove_thread
+                0x000051d6       0x70 myrtt/src/scheduler.o
+                0x000051d6                rt_schedule_remove_thread
  .text.rt_enter_critical
-                0x000052f6       0x44 myrtt/src/scheduler.o
-                0x000052f6                rt_enter_critical
+                0x00005246       0x44 myrtt/src/scheduler.o
+                0x00005246                rt_enter_critical
  .text.rt_exit_critical
-                0x0000533a       0x6c myrtt/src/scheduler.o
-                0x0000533a                rt_exit_critical
+                0x0000528a       0x6c myrtt/src/scheduler.o
+                0x0000528a                rt_exit_critical
  .text.rt_list_init
-                0x000053a6       0x2c myrtt/src/thread.o
+                0x000052f6       0x2c myrtt/src/thread.o
  .text.rt_list_insert_after
-                0x000053d2       0x46 myrtt/src/thread.o
+                0x00005322       0x46 myrtt/src/thread.o
  .text.rt_list_insert_before
-                0x00005418       0x46 myrtt/src/thread.o
+                0x00005368       0x46 myrtt/src/thread.o
  .text.rt_list_remove
-                0x0000545e       0x48 myrtt/src/thread.o
+                0x000053ae       0x48 myrtt/src/thread.o
  .text.rt_thread_exit
-                0x000054a6       0x8a myrtt/src/thread.o
-                0x000054a6                rt_thread_exit
+                0x000053f6       0x8a myrtt/src/thread.o
+                0x000053f6                rt_thread_exit
  .text._rt_thread_init
-                0x00005530      0x124 myrtt/src/thread.o
+                0x00005480      0x124 myrtt/src/thread.o
  .text.rt_thread_init
-                0x00005654       0x6a myrtt/src/thread.o
-                0x00005654                rt_thread_init
+                0x000055a4       0x6a myrtt/src/thread.o
+                0x000055a4                rt_thread_init
  .text.rt_thread_self
-                0x000056be       0x1a myrtt/src/thread.o
-                0x000056be                rt_thread_self
+                0x0000560e       0x1a myrtt/src/thread.o
+                0x0000560e                rt_thread_self
  .text.rt_thread_startup
-                0x000056d8       0x5c myrtt/src/thread.o
-                0x000056d8                rt_thread_startup
+                0x00005628       0x5c myrtt/src/thread.o
+                0x00005628                rt_thread_startup
  .text.rt_thread_yield
-                0x00005734       0x90 myrtt/src/thread.o
-                0x00005734                rt_thread_yield
+                0x00005684       0x90 myrtt/src/thread.o
+                0x00005684                rt_thread_yield
  .text.rt_thread_resume
-                0x000057c4       0x60 myrtt/src/thread.o
-                0x000057c4                rt_thread_resume
+                0x00005714       0x60 myrtt/src/thread.o
+                0x00005714                rt_thread_resume
  .text.rt_thread_timeout
-                0x00005824       0x40 myrtt/src/thread.o
-                0x00005824                rt_thread_timeout
+                0x00005774       0x40 myrtt/src/thread.o
+                0x00005774                rt_thread_timeout
  .text.rt_list_init
-                0x00005864       0x2c myrtt/src/timer.o
+                0x000057b4       0x2c myrtt/src/timer.o
  .text.rt_list_insert_after
-                0x00005890       0x46 myrtt/src/timer.o
+                0x000057e0       0x46 myrtt/src/timer.o
  .text.rt_list_remove
-                0x000058d6       0x48 myrtt/src/timer.o
+                0x00005826       0x48 myrtt/src/timer.o
  .text.rt_list_isempty
-                0x0000591e       0x2c myrtt/src/timer.o
+                0x0000586e       0x2c myrtt/src/timer.o
  .text._rt_timer_init
-                0x0000594a       0xa0 myrtt/src/timer.o
+                0x0000589a       0xa0 myrtt/src/timer.o
  .text._rt_timer_remove
-                0x000059ea       0x46 myrtt/src/timer.o
+                0x0000593a       0x46 myrtt/src/timer.o
  .text.rt_timer_init
-                0x00005a30       0x54 myrtt/src/timer.o
-                0x00005a30                rt_timer_init
+                0x00005980       0x54 myrtt/src/timer.o
+                0x00005980                rt_timer_init
  .text.rt_timer_detach
-                0x00005a84       0x38 myrtt/src/timer.o
-                0x00005a84                rt_timer_detach
+                0x000059d4       0x38 myrtt/src/timer.o
+                0x000059d4                rt_timer_detach
  .text.rt_timer_start
-                0x00005abc      0x1fe myrtt/src/timer.o
-                0x00005abc                rt_timer_start
+                0x00005a0c      0x1fe myrtt/src/timer.o
+                0x00005a0c                rt_timer_start
  .text.rt_timer_stop
-                0x00005cba       0x56 myrtt/src/timer.o
-                0x00005cba                rt_timer_stop
+                0x00005c0a       0x56 myrtt/src/timer.o
+                0x00005c0a                rt_timer_stop
  .text.rt_timer_check
-                0x00005d10       0xd6 myrtt/src/timer.o
-                0x00005d10                rt_timer_check
+                0x00005c60       0xd6 myrtt/src/timer.o
+                0x00005c60                rt_timer_check
  .text.rt_system_timer_init
-                0x00005de6       0x42 myrtt/src/timer.o
-                0x00005de6                rt_system_timer_init
+                0x00005d36       0x42 myrtt/src/timer.o
+                0x00005d36                rt_system_timer_init
  .text.rt_system_timer_thread_init
-                0x00005e28       0x12 myrtt/src/timer.o
-                0x00005e28                rt_system_timer_thread_init
+                0x00005d78       0x12 myrtt/src/timer.o
+                0x00005d78                rt_system_timer_thread_init
  .text.rt_hw_stack_init
-                0x00005e3a       0xaa myrtt/libcpu/risc-v/common/cpuport.o
-                0x00005e3a                rt_hw_stack_init
+                0x00005d8a       0xaa myrtt/libcpu/risc-v/common/cpuport.o
+                0x00005d8a                rt_hw_stack_init
  .text.sw_setpend
-                0x00005ee4       0x1a myrtt/libcpu/risc-v/common/cpuport.o
-                0x00005ee4                sw_setpend
+                0x00005e34       0x1a myrtt/libcpu/risc-v/common/cpuport.o
+                0x00005e34                sw_setpend
  .text.sw_clearpend
-                0x00005efe       0x18 myrtt/libcpu/risc-v/common/cpuport.o
-                0x00005efe                sw_clearpend
+                0x00005e4e       0x18 myrtt/libcpu/risc-v/common/cpuport.o
+                0x00005e4e                sw_clearpend
  .text.rt_hw_context_switch_interrupt
-                0x00005f16       0x4a myrtt/libcpu/risc-v/common/cpuport.o
-                0x00005f16                rt_hw_context_switch_interrupt
+                0x00005e66       0x4a myrtt/libcpu/risc-v/common/cpuport.o
+                0x00005e66                rt_hw_context_switch_interrupt
  .text.fpu_enable
-                0x00005f60       0x1c ../common/../lib/utils.o
-                0x00005f60                fpu_enable
+                0x00005eb0       0x1c ../common/../lib/utils.o
+                0x00005eb0                fpu_enable
  .text.test_pass
-                0x00005f7c       0x1a ../common/../lib/utils.o
-                0x00005f7c                test_pass
+                0x00005ecc       0x1a ../common/../lib/utils.o
+                0x00005ecc                test_pass
  .text.test_fail
-                0x00005f96       0x1a ../common/../lib/utils.o
-                0x00005f96                test_fail
+                0x00005ee6       0x1a ../common/../lib/utils.o
+                0x00005ee6                test_fail
  .text.test_delay
-                0x00005fb0       0x64 ../common/../lib/utils.o
-                0x00005fb0                test_delay
+                0x00005f00       0x64 ../common/../lib/utils.o
+                0x00005f00                test_delay
  .text.check_iter
-                0x00006014       0x42 ../common/../lib/utils.o
-                0x00006014                check_iter
+                0x00005f64       0x42 ../common/../lib/utils.o
+                0x00005f64                check_iter
  .text.uart_init
-                0x00006056       0x12 ../common/../lib/uart.o
-                0x00006056                uart_init
+                0x00005fa6       0x12 ../common/../lib/uart.o
+                0x00005fa6                uart_init
  .text.uart_out
-                0x00006068       0x36 ../common/../lib/uart.o
-                0x00006068                uart_out
- .text.putchar  0x0000609e       0x40 ../common/../lib/uart.o
-                0x0000609e                putchar
- .text.strnlen  0x000060de       0x52 ../common/../lib/uart.o
+                0x00005fb8       0x36 ../common/../lib/uart.o
+                0x00005fb8                uart_out
+ .text.putchar  0x00005fee       0x40 ../common/../lib/uart.o
+                0x00005fee                putchar
+ .text.strnlen  0x0000602e       0x52 ../common/../lib/uart.o
  .text.skip_atoi
-                0x00006130       0x70 ../common/../lib/uart.o
- .text.number   0x000061a0      0x314 ../common/../lib/uart.o
- .text.eaddr    0x000064b4      0x17e ../common/../lib/uart.o
- .text.iaddr    0x00006632      0x29c ../common/../lib/uart.o
+                0x00006080       0x70 ../common/../lib/uart.o
+ .text.number   0x000060f0      0x310 ../common/../lib/uart.o
+ .text.eaddr    0x00006400      0x17e ../common/../lib/uart.o
+ .text.iaddr    0x0000657e      0x29c ../common/../lib/uart.o
  .text.ee_vsprintf
-                0x000068ce      0x5fe ../common/../lib/uart.o
+                0x0000681a      0x54e ../common/../lib/uart.o
  .text.my_putchar
-                0x00006ecc       0x32 ../common/../lib/uart.o
-                0x00006ecc                my_putchar
+                0x00006d68       0x32 ../common/../lib/uart.o
+                0x00006d68                my_putchar
  .text.ee_printf
-                0x00006efe       0xae ../common/../lib/uart.o
-                0x00006efe                ee_printf
+                0x00006d9a       0xae ../common/../lib/uart.o
+                0x00006d9a                ee_printf
  .text.ee_printf_a
-                0x00006fac       0xaa ../common/../lib/uart.o
-                0x00006fac                ee_printf_a
- .text          0x00007056       0xa8 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
-                0x00007056                memset
- .text.strlen   0x000070fe       0x64 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
-                0x000070fe                strlen
-                0x00007164                        . = ALIGN (0x4)
- *fill*         0x00007162        0x2 
+                0x00006e48       0xaa ../common/../lib/uart.o
+                0x00006e48                ee_printf_a
+ .text          0x00006ef2       0xa8 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-memset.o)
+                0x00006ef2                memset
+ .text.strlen   0x00006f9a       0x64 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-strlen.o)
+                0x00006f9a                strlen
+                0x00007000                        . = ALIGN (0x4)
+ *fill*         0x00006ffe        0x2 
 
 .uartif         0x00020000        0x0
                 [!provide]                        PROVIDE (__uartif_base = .)
  *(.uartif)
 
-.rodata         0x00007164      0x48c
-                0x00007164                        . = ALIGN (0x4)
+.rodata         0x00007000      0x5d8
+                0x00007000                        . = ALIGN (0x4)
  *(.srodata)
  *(.srodata.*)
  *(.rodata)
- .rodata        0x00007164       0xc2 main.o
- *fill*         0x00007226        0x2 
- .rodata        0x00007228      0x166 task/task1_big.o
- *fill*         0x0000738e        0x2 
- .rodata        0x00007390       0x21 task/task2_sort.o
- *fill*         0x000073b1        0x3 
- .rodata        0x000073b4       0x1b task/task3_path.o
- *fill*         0x000073cf        0x1 
- .rodata        0x000073d0       0x3c task/task4_maxs.o
- .rodata        0x0000740c        0xc task/task5_filter.o
- .rodata        0x00007418       0x15 task/task6_find.o
- *fill*         0x0000742d        0x3 
- .rodata        0x00007430       0x58 task/task7_float_test.o
- .rodata        0x00007488        0x5 myrtt/src/components.o
- *fill*         0x0000748d        0x3 
- .rodata        0x00007490        0x6 myrtt/src/idle.o
- *fill*         0x00007496        0x2 
- .rodata        0x00007498       0x57 ../common/../lib/uart.o
+ .rodata        0x00007000       0xc2 main.o
+ *fill*         0x000070c2        0x2 
+ .rodata        0x000070c4      0x166 task/task1_big.o
+ *fill*         0x0000722a        0x2 
+ .rodata        0x0000722c       0x21 task/task2_sort.o
+ *fill*         0x0000724d        0x3 
+ .rodata        0x00007250       0x1b task/task3_path.o
+ *fill*         0x0000726b        0x1 
+ .rodata        0x0000726c       0x3c task/task4_maxs.o
+ .rodata        0x000072a8        0xc task/task5_filter.o
+ .rodata        0x000072b4       0x15 task/task6_find.o
+ *fill*         0x000072c9        0x3 
+ .rodata        0x000072cc       0x58 task/task7_float_test.o
+ .rodata        0x00007324        0x5 myrtt/src/components.o
+ *fill*         0x00007329        0x3 
+ .rodata        0x0000732c        0x6 myrtt/src/idle.o
+ *fill*         0x00007332        0x2 
+ .rodata        0x00007334       0x57 ../common/../lib/uart.o
  *(.rodata.*)
- *fill*         0x000074ef        0x1 
+ *fill*         0x0000738b        0x1 
+ .rodata.plic_irq_base_handler
+                0x0000738c       0x28 main.o
  .rodata.__lowest_bit_bitmap
-                0x000074f0      0x100 myrtt/src/kservice.o
-                0x000074f0                __lowest_bit_bitmap
+                0x000073b4      0x100 myrtt/src/kservice.o
+                0x000073b4                __lowest_bit_bitmap
+ .rodata.ee_vsprintf
+                0x000074b4      0x124 ../common/../lib/uart.o
 
-.rti_fn.0.end   0x000075f0        0x4
- .rti_fn.0.end  0x000075f0        0x4 myrtt/src/components.o
-                0x000075f0                __rt_init_rti_board_start
+.rti_fn.0.end   0x000075d8        0x4
+ .rti_fn.0.end  0x000075d8        0x4 myrtt/src/components.o
+                0x000075d8                __rt_init_rti_board_start
 
-.rti_fn.1.end   0x000075f4        0x4
- .rti_fn.1.end  0x000075f4        0x4 myrtt/src/components.o
-                0x000075f4                __rt_init_rti_board_end
+.rti_fn.1.end   0x000075dc        0x4
+ .rti_fn.1.end  0x000075dc        0x4 myrtt/src/components.o
+                0x000075dc                __rt_init_rti_board_end
 
-.rti_fn.6.end   0x000075f8        0x4
- .rti_fn.6.end  0x000075f8        0x4 myrtt/src/components.o
-                0x000075f8                __rt_init_rti_end
+.rti_fn.6.end   0x000075e0        0x4
+ .rti_fn.6.end  0x000075e0        0x4 myrtt/src/components.o
+                0x000075e0                __rt_init_rti_end
 
-.rela.dyn       0x000075fc        0x0
- .rela.text     0x000075fc        0x0 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+.rela.dyn       0x000075e4        0x0
+ .rela.text     0x000075e4        0x0 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
  .rela.text.start
-                0x000075fc        0x0 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+                0x000075e4        0x0 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
 
 .htif           0x00020000        0x0
                 [!provide]                        PROVIDE (__htif_base = .)
@@ -1280,113 +1286,90 @@ LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin
 OUTPUT(rtt_test elf32-littleriscv)
 
 .riscv.attributes
-                0x00000000       0xd5
+                0x00000000       0xc0
  .riscv.attributes
-                0x00000000       0xd3 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+                0x00000000       0xbe myrtt/libcpu/risc-v/coregen_port/context_gcc.o
  .riscv.attributes
-                0x000000d3       0xd3 myrtt/libcpu/risc-v/coregen_port/interrupt_gcc.o
+                0x000000be       0xbe myrtt/libcpu/risc-v/coregen_port/interrupt_gcc.o
  .riscv.attributes
-                0x000001a6       0xd3 common/start.o
+                0x0000017c       0xbe common/start.o
  .riscv.attributes
-                0x00000279       0xd5 clint.o
+                0x0000023a       0xc0 clint.o
  .riscv.attributes
-                0x0000034e       0xd5 main.o
+                0x000002fa       0xc0 main.o
  .riscv.attributes
-                0x00000423       0xd5 plic.o
+                0x000003ba       0xc0 plic.o
  .riscv.attributes
-                0x000004f8       0xd1 task/task1_big.o
+                0x0000047a       0xbc task/task1_big.o
  .riscv.attributes
-                0x000005c9       0xd1 task/task2_sort.o
+                0x00000536       0xbc task/task2_sort.o
  .riscv.attributes
-                0x0000069a       0xd1 task/task3_path.o
+                0x000005f2       0xbc task/task3_path.o
  .riscv.attributes
-                0x0000076b       0xd1 task/task4_maxs.o
+                0x000006ae       0xbc task/task4_maxs.o
  .riscv.attributes
-                0x0000083c       0xd1 task/task5_filter.o
+                0x0000076a       0xbc task/task5_filter.o
  .riscv.attributes
-                0x0000090d       0xd1 task/task6_find.o
+                0x00000826       0xbc task/task6_find.o
  .riscv.attributes
-                0x000009de       0xd1 task/task7_float_test.o
+                0x000008e2       0xbc task/task7_float_test.o
  .riscv.attributes
-                0x00000aaf       0xd5 myrtt/board.o
+                0x0000099e       0xc0 myrtt/board.o
  .riscv.attributes
-                0x00000b84       0xd1 myrtt/src/clock.o
+                0x00000a5e       0xbc myrtt/src/clock.o
  .riscv.attributes
-                0x00000c55       0xd1 myrtt/src/components.o
+                0x00000b1a       0xbc myrtt/src/components.o
  .riscv.attributes
-                0x00000d26       0xd1 myrtt/src/idle.o
+                0x00000bd6       0xbc myrtt/src/idle.o
  .riscv.attributes
-                0x00000df7       0xd1 myrtt/src/irq.o
+                0x00000c92       0xbc myrtt/src/irq.o
  .riscv.attributes
-                0x00000ec8       0xd1 myrtt/src/kservice.o
+                0x00000d4e       0xbc myrtt/src/kservice.o
  .riscv.attributes
-                0x00000f99       0xd1 myrtt/src/object.o
+                0x00000e0a       0xbc myrtt/src/object.o
  .riscv.attributes
-                0x0000106a       0xd1 myrtt/src/scheduler.o
+                0x00000ec6       0xbc myrtt/src/scheduler.o
  .riscv.attributes
-                0x0000113b       0xd1 myrtt/src/thread.o
+                0x00000f82       0xbc myrtt/src/thread.o
  .riscv.attributes
-                0x0000120c       0xd1 myrtt/src/timer.o
+                0x0000103e       0xbc myrtt/src/timer.o
  .riscv.attributes
-                0x000012dd       0xd1 myrtt/libcpu/risc-v/common/cpuport.o
+                0x000010fa       0xbc myrtt/libcpu/risc-v/common/cpuport.o
  .riscv.attributes
-                0x000013ae       0xd5 ../common/../lib/utils.o
+                0x000011b6       0xc0 ../common/../lib/utils.o
  .riscv.attributes
-                0x00001483       0xd5 ../common/../lib/uart.o
+                0x00001276       0xc0 ../common/../lib/uart.o
  .riscv.attributes
-                0x00001558       0x79 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
+                0x00001336       0x58 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-memset.o)
  .riscv.attributes
-                0x000015d1       0x7b /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+                0x0000138e       0x5a /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-strlen.o)
 
-.comment        0x00000000       0x21
- .comment       0x00000000       0x21 clint.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 main.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 plic.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 task/task1_big.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 task/task2_sort.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 task/task3_path.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 task/task4_maxs.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 task/task5_filter.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 task/task6_find.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 task/task7_float_test.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/board.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/clock.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/components.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/idle.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/irq.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/kservice.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/object.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/scheduler.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/thread.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/src/timer.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 myrtt/libcpu/risc-v/common/cpuport.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 ../common/../lib/utils.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 ../common/../lib/uart.o
-                                 0x10 (size before relaxing)
- .comment       0x00000021        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
-                                 0x13 (size before relaxing)
+.comment        0x00000000       0x33
+ .comment       0x00000000       0x33 clint.o
+                                 0x34 (size before relaxing)
+ .comment       0x00000033       0x34 main.o
+ .comment       0x00000033       0x34 plic.o
+ .comment       0x00000033       0x34 task/task1_big.o
+ .comment       0x00000033       0x34 task/task2_sort.o
+ .comment       0x00000033       0x34 task/task3_path.o
+ .comment       0x00000033       0x34 task/task4_maxs.o
+ .comment       0x00000033       0x34 task/task5_filter.o
+ .comment       0x00000033       0x34 task/task6_find.o
+ .comment       0x00000033       0x34 task/task7_float_test.o
+ .comment       0x00000033       0x34 myrtt/board.o
+ .comment       0x00000033       0x34 myrtt/src/clock.o
+ .comment       0x00000033       0x34 myrtt/src/components.o
+ .comment       0x00000033       0x34 myrtt/src/idle.o
+ .comment       0x00000033       0x34 myrtt/src/irq.o
+ .comment       0x00000033       0x34 myrtt/src/kservice.o
+ .comment       0x00000033       0x34 myrtt/src/object.o
+ .comment       0x00000033       0x34 myrtt/src/scheduler.o
+ .comment       0x00000033       0x34 myrtt/src/thread.o
+ .comment       0x00000033       0x34 myrtt/src/timer.o
+ .comment       0x00000033       0x34 myrtt/libcpu/risc-v/common/cpuport.o
+ .comment       0x00000033       0x34 ../common/../lib/utils.o
+ .comment       0x00000033       0x34 ../common/../lib/uart.o
+ .comment       0x00000033       0x34 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-strlen.o)
 
 .note.GNU-stack
                 0x00000000        0x0
@@ -1437,4 +1420,4 @@ OUTPUT(rtt_test elf32-littleriscv)
  .note.GNU-stack
                 0x00000000        0x0 ../common/../lib/uart.o
  .note.GNU-stack
-                0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+                0x00000000        0x0 /home/majianglin/programs/xpack-riscv-none-elf-gcc-14.2.0-3/bin/../lib/gcc/riscv-none-elf/14.2.0/../../../../riscv-none-elf/lib/rv32imafdc_zicsr/ilp32d/libc.a(libc_a-strlen.o)

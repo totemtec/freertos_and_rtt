@@ -1,0 +1,13 @@
+*.o
+
+sim_room/test_case/*
+smoke_test/test_case/core_memory/*
+
+freertos_test/freertos_test
+freertos_test/freertos_test.dump
+freertos_test/freertos_test.verilog
+
+
+rtt_test/rtt_test
+rtt_test/rtt_test.dump
+rtt_test/rtt_test.verilog
