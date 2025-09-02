@@ -1,0 +1,825 @@
+Archive member included to satisfy reference by file (symbol)
+
+/nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memcpy.o)
+                              FreeRTOS/queue.o (memcpy)
+/nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memset.o)
+                              main.o (memset)
+/nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-strlen.o)
+                              FreeRTOS/tasks.o (strlen)
+
+Discarded input sections
+
+ .data          0x0000000000000000        0x0 FreeRTOS/portable/GCC/RISC-V/portASM.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/portable/GCC/RISC-V/portASM.o
+ .data          0x0000000000000000        0x0 ../common/start.o
+ .bss           0x0000000000000000        0x0 ../common/start.o
+ .text          0x0000000000000000        0x0 clint.o
+ .data          0x0000000000000000        0x0 clint.o
+ .bss           0x0000000000000000        0x0 clint.o
+ .sbss.g_MIE    0x0000000000000000        0x4 clint.o
+ .sbss.g_MSTATUS
+                0x0000000000000000        0x4 clint.o
+ .text.TEST     0x0000000000000000       0x3a clint.o
+ .text.EN_I     0x0000000000000000       0x30 clint.o
+ .text.clint_csr_cfg
+                0x0000000000000000       0x4a clint.o
+ .text.CLINT_mtime_read
+                0x0000000000000000       0x54 clint.o
+ .text.CLINT_mtime_cmp_read
+                0x0000000000000000       0x56 clint.o
+ .text.clint_init
+                0x0000000000000000       0x40 clint.o
+ .text          0x0000000000000000        0x0 main.o
+ .data          0x0000000000000000        0x0 main.o
+ .bss           0x0000000000000000        0x0 main.o
+ .sbss.abc1     0x0000000000000000        0x4 main.o
+ .sbss.Task1Task_Handler
+                0x0000000000000000        0x4 main.o
+ .text.task1_task
+                0x0000000000000000       0x34 main.o
+ .sbss.abc2     0x0000000000000000        0x4 main.o
+ .sbss.Task2Task_Handler
+                0x0000000000000000        0x4 main.o
+ .text.task2_task
+                0x0000000000000000       0x34 main.o
+ .sbss.abc3     0x0000000000000000        0x4 main.o
+ .sbss.Task3Task_Handler
+                0x0000000000000000        0x4 main.o
+ .text.task3_task
+                0x0000000000000000       0x34 main.o
+ .sbss.abc4     0x0000000000000000        0x4 main.o
+ .sbss.Task4Task_Handler
+                0x0000000000000000        0x4 main.o
+ .text.task4_task
+                0x0000000000000000       0x34 main.o
+ .text          0x0000000000000000        0x0 FreeRTOS/queue.o
+ .data          0x0000000000000000        0x0 FreeRTOS/queue.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/queue.o
+ .bss.xQueueRegistry
+                0x0000000000000000       0x40 FreeRTOS/queue.o
+ .rodata        0x0000000000000000       0x35 FreeRTOS/queue.o
+ .text.xQueueGenericReset
+                0x0000000000000000      0x17a FreeRTOS/queue.o
+ .text.xQueueGenericCreate
+                0x0000000000000000       0xe4 FreeRTOS/queue.o
+ .text.prvInitialiseNewQueue
+                0x0000000000000000       0x66 FreeRTOS/queue.o
+ .text.prvInitialiseMutex
+                0x0000000000000000       0x46 FreeRTOS/queue.o
+ .text.xQueueCreateMutex
+                0x0000000000000000       0x4c FreeRTOS/queue.o
+ .text.xQueueGetMutexHolder
+                0x0000000000000000       0x76 FreeRTOS/queue.o
+ .text.xQueueGetMutexHolderFromISR
+                0x0000000000000000       0x5e FreeRTOS/queue.o
+ .text.xQueueGiveMutexRecursive
+                0x0000000000000000       0x9c FreeRTOS/queue.o
+ .text.xQueueTakeMutexRecursive
+                0x0000000000000000       0xac FreeRTOS/queue.o
+ .text.xQueueCreateCountingSemaphore
+                0x0000000000000000       0x86 FreeRTOS/queue.o
+ .text.xQueueGenericSend
+                0x0000000000000000      0x2ae FreeRTOS/queue.o
+ .text.xQueueGenericSendFromISR
+                0x0000000000000000      0x1c4 FreeRTOS/queue.o
+ .text.xQueueGiveFromISR
+                0x0000000000000000      0x196 FreeRTOS/queue.o
+ .text.xQueueReceive
+                0x0000000000000000      0x262 FreeRTOS/queue.o
+ .text.xQueueSemaphoreTake
+                0x0000000000000000      0x2ee FreeRTOS/queue.o
+ .text.xQueuePeek
+                0x0000000000000000      0x26a FreeRTOS/queue.o
+ .text.xQueueReceiveFromISR
+                0x0000000000000000      0x170 FreeRTOS/queue.o
+ .text.xQueuePeekFromISR
+                0x0000000000000000      0x10c FreeRTOS/queue.o
+ .text.uxQueueMessagesWaiting
+                0x0000000000000000       0x60 FreeRTOS/queue.o
+ .text.uxQueueSpacesAvailable
+                0x0000000000000000       0x72 FreeRTOS/queue.o
+ .text.uxQueueMessagesWaitingFromISR
+                0x0000000000000000       0x5a FreeRTOS/queue.o
+ .text.vQueueDelete
+                0x0000000000000000       0x64 FreeRTOS/queue.o
+ .text.prvGetDisinheritPriorityAfterTimeout
+                0x0000000000000000       0x36 FreeRTOS/queue.o
+ .text.prvCopyDataToQueue
+                0x0000000000000000      0x136 FreeRTOS/queue.o
+ .text.prvCopyDataFromQueue
+                0x0000000000000000       0x6e FreeRTOS/queue.o
+ .text.prvUnlockQueue
+                0x0000000000000000       0xe4 FreeRTOS/queue.o
+ .text.prvIsQueueEmpty
+                0x0000000000000000       0x3e FreeRTOS/queue.o
+ .text.xQueueIsQueueEmptyFromISR
+                0x0000000000000000       0x64 FreeRTOS/queue.o
+ .text.prvIsQueueFull
+                0x0000000000000000       0x46 FreeRTOS/queue.o
+ .text.xQueueIsQueueFullFromISR
+                0x0000000000000000       0x6c FreeRTOS/queue.o
+ .text.vQueueAddToRegistry
+                0x0000000000000000       0xe8 FreeRTOS/queue.o
+ .text.pcQueueGetName
+                0x0000000000000000       0x98 FreeRTOS/queue.o
+ .text.vQueueUnregisterQueue
+                0x0000000000000000       0xa4 FreeRTOS/queue.o
+ .text.vQueueWaitForMessageRestricted
+                0x0000000000000000       0x9c FreeRTOS/queue.o
+ .comment       0x0000000000000000       0x13 FreeRTOS/queue.o
+ .riscv.attributes
+                0x0000000000000000       0x35 FreeRTOS/queue.o
+ .text          0x0000000000000000        0x0 FreeRTOS/croutine.o
+ .data          0x0000000000000000        0x0 FreeRTOS/croutine.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/croutine.o
+ .comment       0x0000000000000000       0x13 FreeRTOS/croutine.o
+ .riscv.attributes
+                0x0000000000000000       0x35 FreeRTOS/croutine.o
+ .text          0x0000000000000000        0x0 FreeRTOS/list.o
+ .data          0x0000000000000000        0x0 FreeRTOS/list.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/list.o
+ .text.vListInitialise
+                0x0000000000000000       0x4c FreeRTOS/list.o
+ .text.vListInitialiseItem
+                0x0000000000000000       0x1a FreeRTOS/list.o
+ .text.vListInsertEnd
+                0x0000000000000000       0x66 FreeRTOS/list.o
+ .text.vListInsert
+                0x0000000000000000       0xa2 FreeRTOS/list.o
+ .text.uxListRemove
+                0x0000000000000000       0x70 FreeRTOS/list.o
+ .comment       0x0000000000000000       0x13 FreeRTOS/list.o
+ .riscv.attributes
+                0x0000000000000000       0x35 FreeRTOS/list.o
+ .text          0x0000000000000000        0x0 FreeRTOS/event_groups.o
+ .data          0x0000000000000000        0x0 FreeRTOS/event_groups.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/event_groups.o
+ .text.xEventGroupCreate
+                0x0000000000000000       0x42 FreeRTOS/event_groups.o
+ .rodata        0x0000000000000000       0x39 FreeRTOS/event_groups.o
+ .text.xEventGroupSync
+                0x0000000000000000      0x204 FreeRTOS/event_groups.o
+ .text.xEventGroupWaitBits
+                0x0000000000000000      0x260 FreeRTOS/event_groups.o
+ .text.xEventGroupClearBits
+                0x0000000000000000       0xb4 FreeRTOS/event_groups.o
+ .text.xEventGroupGetBitsFromISR
+                0x0000000000000000       0x44 FreeRTOS/event_groups.o
+ .text.xEventGroupSetBits
+                0x0000000000000000      0x1a6 FreeRTOS/event_groups.o
+ .text.vEventGroupDelete
+                0x0000000000000000       0xc4 FreeRTOS/event_groups.o
+ .text.vEventGroupSetBitsCallback
+                0x0000000000000000       0x2a FreeRTOS/event_groups.o
+ .text.vEventGroupClearBitsCallback
+                0x0000000000000000       0x2a FreeRTOS/event_groups.o
+ .text.prvTestWaitCondition
+                0x0000000000000000       0x54 FreeRTOS/event_groups.o
+ .comment       0x0000000000000000       0x13 FreeRTOS/event_groups.o
+ .riscv.attributes
+                0x0000000000000000       0x35 FreeRTOS/event_groups.o
+ .text          0x0000000000000000        0x0 FreeRTOS/stream_buffer.o
+ .data          0x0000000000000000        0x0 FreeRTOS/stream_buffer.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/stream_buffer.o
+ .rodata        0x0000000000000000       0x3d FreeRTOS/stream_buffer.o
+ .text.xStreamBufferGenericCreate
+                0x0000000000000000      0x12a FreeRTOS/stream_buffer.o
+ .text.vStreamBufferDelete
+                0x0000000000000000       0x76 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferReset
+                0x0000000000000000       0xa0 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferSetTriggerLevel
+                0x0000000000000000       0x82 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferSpacesAvailable
+                0x0000000000000000       0xb4 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferBytesAvailable
+                0x0000000000000000       0x5e FreeRTOS/stream_buffer.o
+ .text.xStreamBufferSend
+                0x0000000000000000      0x268 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferSendFromISR
+                0x0000000000000000      0x134 FreeRTOS/stream_buffer.o
+ .text.prvWriteMessageToBuffer
+                0x0000000000000000       0xaa FreeRTOS/stream_buffer.o
+ .text.xStreamBufferReceive
+                0x0000000000000000      0x1ce FreeRTOS/stream_buffer.o
+ .text.xStreamBufferNextMessageLengthBytes
+                0x0000000000000000       0xd0 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferReceiveFromISR
+                0x0000000000000000      0x122 FreeRTOS/stream_buffer.o
+ .text.prvReadMessageFromBuffer
+                0x0000000000000000       0xbc FreeRTOS/stream_buffer.o
+ .text.xStreamBufferIsEmpty
+                0x0000000000000000       0x72 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferIsFull
+                0x0000000000000000       0x88 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferSendCompletedFromISR
+                0x0000000000000000       0xa0 FreeRTOS/stream_buffer.o
+ .text.xStreamBufferReceiveCompletedFromISR
+                0x0000000000000000       0xa0 FreeRTOS/stream_buffer.o
+ .text.prvWriteBytesToBuffer
+                0x0000000000000000      0x162 FreeRTOS/stream_buffer.o
+ .text.prvReadBytesFromBuffer
+                0x0000000000000000      0x15a FreeRTOS/stream_buffer.o
+ .text.prvBytesInBuffer
+                0x0000000000000000       0x5a FreeRTOS/stream_buffer.o
+ .text.prvInitialiseNewStreamBuffer
+                0x0000000000000000       0xb0 FreeRTOS/stream_buffer.o
+ .comment       0x0000000000000000       0x13 FreeRTOS/stream_buffer.o
+ .riscv.attributes
+                0x0000000000000000       0x35 FreeRTOS/stream_buffer.o
+ .text          0x0000000000000000        0x0 FreeRTOS/tasks.o
+ .data          0x0000000000000000        0x0 FreeRTOS/tasks.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/tasks.o
+ .bss.xDelayedTaskList1
+                0x0000000000000000       0x14 FreeRTOS/tasks.o
+ .bss.xDelayedTaskList2
+                0x0000000000000000       0x14 FreeRTOS/tasks.o
+ .bss.xPendingReadyList
+                0x0000000000000000       0x14 FreeRTOS/tasks.o
+ .bss.xTasksWaitingTermination
+                0x0000000000000000       0x14 FreeRTOS/tasks.o
+ .sbss.uxDeletedTasksWaitingCleanUp
+                0x0000000000000000        0x4 FreeRTOS/tasks.o
+ .bss.xSuspendedTaskList
+                0x0000000000000000       0x14 FreeRTOS/tasks.o
+ .sbss.uxCurrentNumberOfTasks
+                0x0000000000000000        0x4 FreeRTOS/tasks.o
+ .sbss.xSchedulerRunning
+                0x0000000000000000        0x4 FreeRTOS/tasks.o
+ .sbss.uxTaskNumber
+                0x0000000000000000        0x4 FreeRTOS/tasks.o
+ .sbss.xIdleTaskHandle
+                0x0000000000000000        0x4 FreeRTOS/tasks.o
+ .sdata.uxTopUsedPriority
+                0x0000000000000000        0x4 FreeRTOS/tasks.o
+ .text.xTaskCreate
+                0x0000000000000000       0xc4 FreeRTOS/tasks.o
+ .text.prvInitialiseNewTask
+                0x0000000000000000      0x1e4 FreeRTOS/tasks.o
+ .text.prvAddNewTaskToReadyList
+                0x0000000000000000      0x18e FreeRTOS/tasks.o
+ .text.vTaskDelete
+                0x0000000000000000      0x144 FreeRTOS/tasks.o
+ .text.xTaskDelayUntil
+                0x0000000000000000      0x162 FreeRTOS/tasks.o
+ .text.vTaskDelay
+                0x0000000000000000       0x82 FreeRTOS/tasks.o
+ .text.eTaskGetState
+                0x0000000000000000      0x13a FreeRTOS/tasks.o
+ .text.uxTaskPriorityGet
+                0x0000000000000000       0x4c FreeRTOS/tasks.o
+ .text.uxTaskPriorityGetFromISR
+                0x0000000000000000       0x54 FreeRTOS/tasks.o
+ .text.vTaskPrioritySet
+                0x0000000000000000      0x22e FreeRTOS/tasks.o
+ .text.vTaskSuspend
+                0x0000000000000000      0x15c FreeRTOS/tasks.o
+ .text.prvTaskIsTaskSuspended
+                0x0000000000000000       0x84 FreeRTOS/tasks.o
+ .text.vTaskResume
+                0x0000000000000000      0x170 FreeRTOS/tasks.o
+ .text.xTaskResumeFromISR
+                0x0000000000000000      0x194 FreeRTOS/tasks.o
+ .text.vTaskStartScheduler
+                0x0000000000000000       0xc6 FreeRTOS/tasks.o
+ .text.vTaskEndScheduler
+                0x0000000000000000       0x2a FreeRTOS/tasks.o
+ .text.vTaskSuspendAll
+                0x0000000000000000       0x22 FreeRTOS/tasks.o
+ .text.xTaskResumeAll
+                0x0000000000000000      0x2a6 FreeRTOS/tasks.o
+ .text.xTaskGetTickCount
+                0x0000000000000000       0x1e FreeRTOS/tasks.o
+ .text.xTaskGetTickCountFromISR
+                0x0000000000000000       0x22 FreeRTOS/tasks.o
+ .text.uxTaskGetNumberOfTasks
+                0x0000000000000000       0x16 FreeRTOS/tasks.o
+ .text.pcTaskGetName
+                0x0000000000000000       0x64 FreeRTOS/tasks.o
+ .text.prvSearchForNameWithinSingleList
+                0x0000000000000000      0x12a FreeRTOS/tasks.o
+ .text.xTaskGetHandle
+                0x0000000000000000      0x12a FreeRTOS/tasks.o
+ .text.xTaskCatchUpTicks
+                0x0000000000000000       0x76 FreeRTOS/tasks.o
+ .text.xTaskAbortDelay
+                0x0000000000000000      0x1a0 FreeRTOS/tasks.o
+ .text.vTaskPlaceOnEventList
+                0x0000000000000000       0x6e FreeRTOS/tasks.o
+ .text.vTaskPlaceOnUnorderedEventList
+                0x0000000000000000      0x10a FreeRTOS/tasks.o
+ .text.vTaskPlaceOnEventListRestricted
+                0x0000000000000000       0xd2 FreeRTOS/tasks.o
+ .text.xTaskRemoveFromEventList
+                0x0000000000000000      0x266 FreeRTOS/tasks.o
+ .text.vTaskRemoveFromUnorderedEventList
+                0x0000000000000000      0x224 FreeRTOS/tasks.o
+ .text.vTaskSetTimeOutState
+                0x0000000000000000       0x70 FreeRTOS/tasks.o
+ .text.vTaskInternalSetTimeOutState
+                0x0000000000000000       0x2e FreeRTOS/tasks.o
+ .text.xTaskCheckForTimeOut
+                0x0000000000000000      0x14c FreeRTOS/tasks.o
+ .text.vTaskMissedYield
+                0x0000000000000000       0x18 FreeRTOS/tasks.o
+ .text.prvIdleTask
+                0x0000000000000000       0x16 FreeRTOS/tasks.o
+ .text.prvInitialiseTaskLists
+                0x0000000000000000       0xbc FreeRTOS/tasks.o
+ .text.prvCheckTasksWaitingTermination
+                0x0000000000000000       0x84 FreeRTOS/tasks.o
+ .text.prvDeleteTCB
+                0x0000000000000000       0x32 FreeRTOS/tasks.o
+ .text.xTaskGetCurrentTaskHandle
+                0x0000000000000000       0x1e FreeRTOS/tasks.o
+ .text.xTaskGetSchedulerState
+                0x0000000000000000       0x3a FreeRTOS/tasks.o
+ .text.xTaskPriorityInherit
+                0x0000000000000000      0x196 FreeRTOS/tasks.o
+ .text.xTaskPriorityDisinherit
+                0x0000000000000000      0x1b0 FreeRTOS/tasks.o
+ .text.vTaskPriorityDisinheritAfterTimeout
+                0x0000000000000000      0x1f2 FreeRTOS/tasks.o
+ .text.uxTaskResetEventItemValue
+                0x0000000000000000       0x3a FreeRTOS/tasks.o
+ .text.pvTaskIncrementMutexHeldCount
+                0x0000000000000000       0x2e FreeRTOS/tasks.o
+ .text.ulTaskGenericNotifyTake
+                0x0000000000000000      0x122 FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyWait
+                0x0000000000000000      0x174 FreeRTOS/tasks.o
+ .text.xTaskGenericNotify
+                0x0000000000000000      0x336 FreeRTOS/tasks.o
+ .rodata.xTaskGenericNotify
+                0x0000000000000000       0x14 FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyFromISR
+                0x0000000000000000      0x3c4 FreeRTOS/tasks.o
+ .rodata.xTaskGenericNotifyFromISR
+                0x0000000000000000       0x14 FreeRTOS/tasks.o
+ .text.vTaskGenericNotifyGiveFromISR
+                0x0000000000000000      0x2d4 FreeRTOS/tasks.o
+ .text.xTaskGenericNotifyStateClear
+                0x0000000000000000       0xa6 FreeRTOS/tasks.o
+ .text.ulTaskGenericNotifyValueClear
+                0x0000000000000000       0x88 FreeRTOS/tasks.o
+ .text.prvAddCurrentTaskToDelayedList
+                0x0000000000000000      0x156 FreeRTOS/tasks.o
+ .text          0x0000000000000000        0x0 FreeRTOS/timers.o
+ .data          0x0000000000000000        0x0 FreeRTOS/timers.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/timers.o
+ .bss.xActiveTimerList1
+                0x0000000000000000       0x14 FreeRTOS/timers.o
+ .bss.xActiveTimerList2
+                0x0000000000000000       0x14 FreeRTOS/timers.o
+ .sbss.pxCurrentTimerList
+                0x0000000000000000        0x4 FreeRTOS/timers.o
+ .sbss.pxOverflowTimerList
+                0x0000000000000000        0x4 FreeRTOS/timers.o
+ .sbss.xTimerQueue
+                0x0000000000000000        0x4 FreeRTOS/timers.o
+ .sbss.xTimerTaskHandle
+                0x0000000000000000        0x4 FreeRTOS/timers.o
+ .rodata        0x0000000000000000       0x45 FreeRTOS/timers.o
+ .text.xTimerCreateTimerTask
+                0x0000000000000000       0x84 FreeRTOS/timers.o
+ .text.xTimerCreate
+                0x0000000000000000       0x68 FreeRTOS/timers.o
+ .text.prvInitialiseNewTimer
+                0x0000000000000000       0xb4 FreeRTOS/timers.o
+ .text.xTimerGenericCommand
+                0x0000000000000000       0xfe FreeRTOS/timers.o
+ .text.xTimerGetTimerDaemonTaskHandle
+                0x0000000000000000       0x4a FreeRTOS/timers.o
+ .text.xTimerGetPeriod
+                0x0000000000000000       0x50 FreeRTOS/timers.o
+ .text.vTimerSetReloadMode
+                0x0000000000000000       0x94 FreeRTOS/timers.o
+ .text.uxTimerGetReloadMode
+                0x0000000000000000       0x76 FreeRTOS/timers.o
+ .text.xTimerGetExpiryTime
+                0x0000000000000000       0x58 FreeRTOS/timers.o
+ .text.pcTimerGetName
+                0x0000000000000000       0x50 FreeRTOS/timers.o
+ .text.prvReloadTimer
+                0x0000000000000000       0x64 FreeRTOS/timers.o
+ .text.prvProcessExpiredTimer
+                0x0000000000000000       0x7e FreeRTOS/timers.o
+ .text.prvTimerTask
+                0x0000000000000000       0x3a FreeRTOS/timers.o
+ .text.prvProcessTimerOrBlockTask
+                0x0000000000000000       0xc6 FreeRTOS/timers.o
+ .text.prvGetNextExpireTime
+                0x0000000000000000       0x4c FreeRTOS/timers.o
+ .text.prvSampleTimeNow
+                0x0000000000000000       0x5c FreeRTOS/timers.o
+ .text.prvInsertTimerInActiveList
+                0x0000000000000000       0xbc FreeRTOS/timers.o
+ .text.prvProcessReceivedCommands
+                0x0000000000000000      0x234 FreeRTOS/timers.o
+ .rodata.prvProcessReceivedCommands
+                0x0000000000000000       0x28 FreeRTOS/timers.o
+ .text.prvSwitchTimerLists
+                0x0000000000000000       0x66 FreeRTOS/timers.o
+ .text.prvCheckForValidListAndQueue
+                0x0000000000000000       0xa8 FreeRTOS/timers.o
+ .text.xTimerIsTimerActive
+                0x0000000000000000       0x76 FreeRTOS/timers.o
+ .text.pvTimerGetTimerID
+                0x0000000000000000       0x68 FreeRTOS/timers.o
+ .text.vTimerSetTimerID
+                0x0000000000000000       0x68 FreeRTOS/timers.o
+ .text.xTimerPendFunctionCallFromISR
+                0x0000000000000000       0x66 FreeRTOS/timers.o
+ .text.xTimerPendFunctionCall
+                0x0000000000000000       0x96 FreeRTOS/timers.o
+ .sbss.xLastTime.0
+                0x0000000000000000        0x4 FreeRTOS/timers.o
+ .comment       0x0000000000000000       0x13 FreeRTOS/timers.o
+ .riscv.attributes
+                0x0000000000000000       0x35 FreeRTOS/timers.o
+ .text          0x0000000000000000        0x0 FreeRTOS/portable/GCC/RISC-V/port.o
+ .data          0x0000000000000000        0x0 FreeRTOS/portable/GCC/RISC-V/port.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/portable/GCC/RISC-V/port.o
+ .sdata.uxCriticalNesting
+                0x0000000000000000        0x4 FreeRTOS/portable/GCC/RISC-V/port.o
+ .text.vPortSetupTimerInterrupt
+                0x0000000000000000        0xe FreeRTOS/portable/GCC/RISC-V/port.o
+ .rodata        0x0000000000000000       0x45 FreeRTOS/portable/GCC/RISC-V/port.o
+ .text.xPortStartScheduler
+                0x0000000000000000       0x9e FreeRTOS/portable/GCC/RISC-V/port.o
+ .text.vPortEndScheduler
+                0x0000000000000000        0x8 FreeRTOS/portable/GCC/RISC-V/port.o
+ .text.vPortEnterCritical
+                0x0000000000000000       0x2e FreeRTOS/portable/GCC/RISC-V/port.o
+ .text.vPortExitCritical
+                0x0000000000000000       0x68 FreeRTOS/portable/GCC/RISC-V/port.o
+ .text.xPortSetInterruptMask
+                0x0000000000000000       0x24 FreeRTOS/portable/GCC/RISC-V/port.o
+ .text.vPortClearInterruptMask
+                0x0000000000000000       0x1a FreeRTOS/portable/GCC/RISC-V/port.o
+ .text          0x0000000000000000        0x0 FreeRTOS/portable/MemMang/heap_1.o
+ .data          0x0000000000000000        0x0 FreeRTOS/portable/MemMang/heap_1.o
+ .bss           0x0000000000000000        0x0 FreeRTOS/portable/MemMang/heap_1.o
+ .bss.ucHeap    0x0000000000000000     0x3000 FreeRTOS/portable/MemMang/heap_1.o
+ .sbss.xNextFreeByte
+                0x0000000000000000        0x4 FreeRTOS/portable/MemMang/heap_1.o
+ .text.pvPortMalloc
+                0x0000000000000000       0xd8 FreeRTOS/portable/MemMang/heap_1.o
+ .rodata        0x0000000000000000       0x45 FreeRTOS/portable/MemMang/heap_1.o
+ .text.vPortFree
+                0x0000000000000000       0x42 FreeRTOS/portable/MemMang/heap_1.o
+ .text.vPortInitialiseBlocks
+                0x0000000000000000       0x16 FreeRTOS/portable/MemMang/heap_1.o
+ .text.xPortGetFreeHeapSize
+                0x0000000000000000       0x1e FreeRTOS/portable/MemMang/heap_1.o
+ .sbss.pucAlignedHeap.0
+                0x0000000000000000        0x4 FreeRTOS/portable/MemMang/heap_1.o
+ .comment       0x0000000000000000       0x13 FreeRTOS/portable/MemMang/heap_1.o
+ .riscv.attributes
+                0x0000000000000000       0x35 FreeRTOS/portable/MemMang/heap_1.o
+ .text          0x0000000000000000        0x0 Core/core_riscv.o
+ .data          0x0000000000000000        0x0 Core/core_riscv.o
+ .bss           0x0000000000000000        0x0 Core/core_riscv.o
+ .text.__get_MSTATUS
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__set_MSTATUS
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MISA
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__set_MISA
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MTVEC
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__set_MTVEC
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MSCRATCH
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__set_MSCRATCH
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MEPC
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__set_MEPC
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MCAUSE
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__set_MCAUSE
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MTVAL
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__set_MTVAL
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MVENDORID
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MARCHID
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MIMPID
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_MHARTID
+                0x0000000000000000       0x1a Core/core_riscv.o
+ .text.__get_SP
+                0x0000000000000000       0x18 Core/core_riscv.o
+ .comment       0x0000000000000000       0x13 Core/core_riscv.o
+ .riscv.attributes
+                0x0000000000000000       0x39 Core/core_riscv.o
+ .text          0x0000000000000000        0x0 ../common/../lib/utils.o
+ .data          0x0000000000000000        0x0 ../common/../lib/utils.o
+ .bss           0x0000000000000000        0x0 ../common/../lib/utils.o
+ .text.get_cycle_value
+                0x0000000000000000       0x66 ../common/../lib/utils.o
+ .text.busy_wait
+                0x0000000000000000       0x82 ../common/../lib/utils.o
+ .text.fpu_enable
+                0x0000000000000000       0x18 ../common/../lib/utils.o
+ .text.test_pass
+                0x0000000000000000       0x16 ../common/../lib/utils.o
+ .text.test_fail
+                0x0000000000000000       0x16 ../common/../lib/utils.o
+ .sbss.mttt     0x0000000000000000        0x4 ../common/../lib/utils.o
+ .text.delay    0x0000000000000000       0x60 ../common/../lib/utils.o
+ .rodata        0x0000000000000000        0x5 ../common/../lib/utils.o
+ .text.catch_err
+                0x0000000000000000       0x1a ../common/../lib/utils.o
+ .text.check_iter
+                0x0000000000000000       0x3e ../common/../lib/utils.o
+ .comment       0x0000000000000000       0x13 ../common/../lib/utils.o
+ .riscv.attributes
+                0x0000000000000000       0x39 ../common/../lib/utils.o
+ .text          0x0000000000000000        0x0 ../common/../lib/uart.o
+ .data          0x0000000000000000        0x0 ../common/../lib/uart.o
+ .bss           0x0000000000000000        0x0 ../common/../lib/uart.o
+ .sbss.outptr   0x0000000000000000        0x4 ../common/../lib/uart.o
+ .text.enable_interrupts
+                0x0000000000000000       0x1a ../common/../lib/uart.o
+ .text.set_global_interrupt_enable
+                0x0000000000000000       0x26 ../common/../lib/uart.o
+ .sdata.exc_vectors
+                0x0000000000000000        0x4 ../common/../lib/uart.o
+ .text.install_exception_handler
+                0x0000000000000000       0xbe ../common/../lib/uart.o
+ .text.uart_enable_rx_int
+                0x0000000000000000       0x26 ../common/../lib/uart.o
+ .text.uart_in  0x0000000000000000       0x32 ../common/../lib/uart.o
+ .text.uart_init
+                0x0000000000000000        0xe ../common/../lib/uart.o
+ .text.getchar  0x0000000000000000       0x20 ../common/../lib/uart.o
+ .text.puts     0x0000000000000000       0x3e ../common/../lib/uart.o
+ .text.puthex   0x0000000000000000       0x76 ../common/../lib/uart.o
+ .sbss.ttt      0x0000000000000000        0x4 ../common/../lib/uart.o
+ .bss.my_buffer
+                0x0000000000000000      0x3e8 ../common/../lib/uart.o
+ .sbss.my_idx   0x0000000000000000        0x4 ../common/../lib/uart.o
+ .text.my_putchar
+                0x0000000000000000       0x36 ../common/../lib/uart.o
+ .text.my_putchar_a
+                0x0000000000000000       0x32 ../common/../lib/uart.o
+ .text.my_show  0x0000000000000000       0x4e ../common/../lib/uart.o
+ .text          0x0000000000000000       0xde /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memcpy.o)
+ .bss           0x0000000000000000        0x0 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memcpy.o)
+ .comment       0x0000000000000000       0x13 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memcpy.o)
+ .riscv.attributes
+                0x0000000000000000       0x35 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memcpy.o)
+ .data          0x0000000000000000        0x0 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memset.o)
+ .bss           0x0000000000000000        0x0 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memset.o)
+ .text          0x0000000000000000       0x62 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-strlen.o)
+ .data          0x0000000000000000        0x0 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-strlen.o)
+ .bss           0x0000000000000000        0x0 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-strlen.o)
+ .comment       0x0000000000000000       0x13 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-strlen.o)
+ .riscv.attributes
+                0x0000000000000000       0x35 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+itcm             0x0000000070000000 0x0000000000020000
+dtcm             0x0000000070020000 0x0000000000018000
+stack            0x0000000070038000 0x0000000000008000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD FreeRTOS/portable/GCC/RISC-V/portASM.o
+LOAD ../common/start.o
+LOAD clint.o
+LOAD main.o
+LOAD FreeRTOS/queue.o
+LOAD FreeRTOS/croutine.o
+LOAD FreeRTOS/list.o
+LOAD FreeRTOS/event_groups.o
+LOAD FreeRTOS/stream_buffer.o
+LOAD FreeRTOS/tasks.o
+LOAD FreeRTOS/timers.o
+LOAD FreeRTOS/portable/GCC/RISC-V/port.o
+LOAD FreeRTOS/portable/MemMang/heap_1.o
+LOAD Core/core_riscv.o
+LOAD ../common/../lib/utils.o
+LOAD ../common/../lib/uart.o
+LOAD /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a
+START GROUP
+LOAD /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a
+LOAD /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libgloss.a
+END GROUP
+LOAD /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/libgcc.a
+                0x0000000000002000                //_min_stack = 0x2000
+                0x0000000000008000                _stack_len = LENGTH (stack)
+                0x0000000070040000                _stack_start = (ORIGIN (stack) + LENGTH (stack))
+                0x0000000070040000                _stack_end = (ORIGIN (stack) + LENGTH (stack))
+                0x0000000070000080                _entry_point = (_vectors_start + 0x80)
+
+.vectors        0x0000000070000000       0x94
+                0x0000000070000000                . = ALIGN (0x4)
+                0x0000000070000000                _vectors_start = .
+ *(.vectors)
+ .vectors       0x0000000070000000       0x94 ../common/start.o
+                0x0000000070000000                _start
+                0x0000000070000084                hw_interrupt_disable
+                0x000000007000008c                hw_interrupt_enable
+                0x0000000070000094                _vectors_end = .
+
+.text           0x0000000070000100     0x1958
+                0x0000000070000100                . = ALIGN (0x4)
+ *(.text)
+ .text          0x0000000070000100      0x2ea FreeRTOS/portable/GCC/RISC-V/portASM.o
+                0x0000000070000100                SW_Handler
+                0x0000000070000200                xPortStartFirstTask
+                0x0000000070000300                pxPortInitialiseStack
+ .text          0x00000000700003ea      0x138 ../common/start.o
+                0x00000000700003ea                trap_entry
+                0x00000000700004d4                _start1
+ .text          0x0000000070000522       0xa8 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memset.o)
+                0x0000000070000522                memset
+ *(.text.*)
+ .text.handle_trap_timer
+                0x00000000700005ca       0x40 clint.o
+                0x00000000700005ca                handle_trap_timer
+ .text.DIS_I    0x000000007000060a       0x20 clint.o
+                0x000000007000060a                DIS_I
+ .text.handle_trap_software
+                0x000000007000062a       0x34 clint.o
+                0x000000007000062a                handle_trap_software
+ .text.CLINT_mtime_write
+                0x000000007000065e       0x42 clint.o
+                0x000000007000065e                CLINT_mtime_write
+ .text.CLINT_misp_write
+                0x00000000700006a0       0x1e clint.o
+                0x00000000700006a0                CLINT_misp_write
+ .text.CLINT_mtime_cmp_write
+                0x00000000700006be       0x44 clint.o
+                0x00000000700006be                CLINT_mtime_cmp_write
+ .text.simple_exc_handler
+                0x0000000070000702       0x3c clint.o
+                0x0000000070000702                simple_exc_handler
+ .text.get_mcause
+                0x000000007000073e       0x1a clint.o
+                0x000000007000073e                get_mcause
+ .text.entry123
+                0x0000000070000758       0x3c main.o
+                0x0000000070000758                entry123
+ .text.main     0x0000000070000794       0x20 main.o
+                0x0000000070000794                main
+ .text.xTaskIncrementTick
+                0x00000000700007b4      0x2f2 FreeRTOS/tasks.o
+                0x00000000700007b4                xTaskIncrementTick
+ .text.vTaskSwitchContext
+                0x0000000070000aa6       0xe8 FreeRTOS/tasks.o
+                0x0000000070000aa6                vTaskSwitchContext
+ .text.prvResetNextTaskUnblockTime
+                0x0000000070000b8e       0x3a FreeRTOS/tasks.o
+ .text.uart_out
+                0x0000000070000bc8       0x32 ../common/../lib/uart.o
+                0x0000000070000bc8                uart_out
+ .text.putchar  0x0000000070000bfa       0x3c ../common/../lib/uart.o
+                0x0000000070000bfa                putchar
+ .text.strnlen  0x0000000070000c36       0x4e ../common/../lib/uart.o
+ .text.skip_atoi
+                0x0000000070000c84       0x6c ../common/../lib/uart.o
+ .text.number   0x0000000070000cf0      0x312 ../common/../lib/uart.o
+ .text.eaddr    0x0000000070001002      0x182 ../common/../lib/uart.o
+ .text.iaddr    0x0000000070001184      0x22e ../common/../lib/uart.o
+ .text.ee_vsprintf
+                0x00000000700013b2      0x552 ../common/../lib/uart.o
+ .text.ee_printf
+                0x0000000070001904       0xac ../common/../lib/uart.o
+                0x0000000070001904                ee_printf
+ .text.ee_printf_a
+                0x00000000700019b0       0xa8 ../common/../lib/uart.o
+                0x00000000700019b0                ee_printf_a
+
+.rodata         0x0000000070001a58      0x1c8
+                0x0000000070001a58                . = ALIGN (0x4)
+ *(.srodata)
+ *(.srodata.*)
+ .srodata.xISRStackTop
+                0x0000000070001a58        0x4 FreeRTOS/portable/GCC/RISC-V/port.o
+                0x0000000070001a58                xISRStackTop
+ *(.rodata)
+ .rodata        0x0000000070001a5c        0x8 main.o
+ .rodata        0x0000000070001a64       0x3d FreeRTOS/tasks.o
+ *fill*         0x0000000070001aa1        0x3 
+ .rodata        0x0000000070001aa4       0x57 ../common/../lib/uart.o
+ *(.rodata.*)
+ *fill*         0x0000000070001afb        0x1 
+ .rodata.ee_vsprintf
+                0x0000000070001afc      0x124 ../common/../lib/uart.o
+
+.rela.dyn       0x0000000070001c20        0x0
+ .rela.text     0x0000000070001c20        0x0 FreeRTOS/portable/GCC/RISC-V/portASM.o
+ .rela.text.entry123
+                0x0000000070001c20        0x0 FreeRTOS/portable/GCC/RISC-V/portASM.o
+ .rela.srodata.xISRStackTop
+                0x0000000070001c20        0x0 FreeRTOS/portable/GCC/RISC-V/portASM.o
+
+.data           0x0000000070020000        0xc
+                0x0000000070020000                . = ALIGN (0x4)
+                0x0000000070020800                //__global_pointer$ = (. + 0x800)
+ *(.sdata)
+ *(.sdata.*)
+ .sdata.digits  0x0000000070020000        0x4 ../common/../lib/uart.o
+ .sdata.upper_digits
+                0x0000000070020004        0x4 ../common/../lib/uart.o
+ .sdata.ee_open
+                0x0000000070020008        0x4 ../common/../lib/uart.o
+                0x0000000070020008                ee_open
+ *(.data)
+ *(.data.*)
+
+.myinterrupt    0x000000007002000c      0x804
+                0x0000000070020010                . = ALIGN (0x10)
+ *fill*         0x000000007002000c        0x4 
+                0x0000000070020010                _myinterrupt_start = .
+                0x0000000070020810                . = (. + 0x800)
+ *fill*         0x0000000070020010      0x800 
+                0x0000000070020810                _myinterrupt_end = .
+                0x0000000070020810                __freertos_irq_stack_top = .
+
+.bss            0x0000000070020810      0x15c
+                0x0000000070020810                . = ALIGN (0x4)
+                0x0000000070020810                _bss_start = .
+ *(.sbss)
+ *(.sbss.*)
+ .sbss.timer_num1
+                0x0000000070020810        0x4 clint.o
+                0x0000000070020810                timer_num1
+ .sbss.g_level  0x0000000070020814        0x4 clint.o
+                0x0000000070020814                g_level
+ .sbss.pxCurrentTCB
+                0x0000000070020818        0x4 FreeRTOS/tasks.o
+                0x0000000070020818                pxCurrentTCB
+ .sbss.pxDelayedTaskList
+                0x000000007002081c        0x4 FreeRTOS/tasks.o
+ .sbss.pxOverflowDelayedTaskList
+                0x0000000070020820        0x4 FreeRTOS/tasks.o
+ .sbss.xTickCount
+                0x0000000070020824        0x4 FreeRTOS/tasks.o
+ .sbss.uxTopReadyPriority
+                0x0000000070020828        0x4 FreeRTOS/tasks.o
+ .sbss.xPendedTicks
+                0x000000007002082c        0x4 FreeRTOS/tasks.o
+ .sbss.xYieldPending
+                0x0000000070020830        0x4 FreeRTOS/tasks.o
+ .sbss.xNumOfOverflows
+                0x0000000070020834        0x4 FreeRTOS/tasks.o
+ .sbss.xNextTaskUnblockTime
+                0x0000000070020838        0x4 FreeRTOS/tasks.o
+ .sbss.uxSchedulerSuspended
+                0x000000007002083c        0x4 FreeRTOS/tasks.o
+ *(.bss)
+ *(.bss.*)
+ .bss.pxReadyTasksLists
+                0x0000000070020840      0x12c FreeRTOS/tasks.o
+ *(COMMON)
+                0x000000007002096c                _bss_end = .
+
+.stack          0x0000000070038000        0x0
+                0x0000000070038000                . = ALIGN (0x4)
+                0x0000000070038000                stack = .
+                0x0000000070038000                _stack = .
+                0x0000000070038000                _end = .
+OUTPUT(freertos_test elf32-littleriscv)
+
+.riscv.attributes
+                0x0000000000000000       0x39
+ .riscv.attributes
+                0x0000000000000000       0x37 FreeRTOS/portable/GCC/RISC-V/portASM.o
+ .riscv.attributes
+                0x0000000000000037       0x37 ../common/start.o
+ .riscv.attributes
+                0x000000000000006e       0x39 clint.o
+ .riscv.attributes
+                0x00000000000000a7       0x35 main.o
+ .riscv.attributes
+                0x00000000000000dc       0x35 FreeRTOS/tasks.o
+ .riscv.attributes
+                0x0000000000000111       0x39 FreeRTOS/portable/GCC/RISC-V/port.o
+ .riscv.attributes
+                0x000000000000014a       0x39 ../common/../lib/uart.o
+ .riscv.attributes
+                0x0000000000000183       0x33 /nfs/app/riscv_32f/lib/gcc/riscv32-unknown-elf/10.2.0/../../../../riscv32-unknown-elf/lib/libc.a(lib_a-memset.o)
+
+.comment        0x0000000000000000       0x12
+ .comment       0x0000000000000000       0x12 clint.o
+                                         0x13 (size before relaxing)
+ .comment       0x0000000000000012       0x13 main.o
+ .comment       0x0000000000000012       0x13 FreeRTOS/tasks.o
+ .comment       0x0000000000000012       0x13 FreeRTOS/portable/GCC/RISC-V/port.o
+ .comment       0x0000000000000012       0x13 ../common/../lib/uart.o

@@ -1,0 +1,132 @@
+Magic 271485
+Revision Verdi_S-2021.09-SP1
+
+; Window Layout <x> <y> <width> <height> <signalwidth> <valuewidth>
+viewPort 0 25 2160 768 183 65
+
+; File list:
+; openDirFile [-d delimiter] [-s time_offset] [-rf auto_bus_rule_file] path_name file_name
+openDirFile -d / "" "/nfs/home/wangqiang/work/tmp/2024.1.24/coreGen/simple_test/smoke_test/build/result/init_test/rtt_test.fsdb"
+
+; file time scale:
+; fileTimeScale ### s|ms|us|ns|ps
+
+; signal spacing:
+signalSpacing 5
+
+; windowTimeUnit is used for zoom, cursor & marker
+; waveform viewport range
+zoom 16539935625.623415 16543428480.059933
+cursor 1080790000.000000
+marker 0.000000
+
+; user define markers
+; userMarker time_pos marker_name color linestyle
+userMarker 16437110000 M17 ID_GREEN5 long_dashed
+userMarker 16540970000 M16 ID_GREEN5 long_dashed
+userMarker 16543490000 M15 ID_GREEN5 long_dashed
+userMarker 16352489932.863 ERROR_2 ID_GREEN5 long_dashed
+userMarker 16305070000 rt_5dd0 ID_GREEN5 long_dashed
+userMarker 16361350000 ERROR_1 ID_GREEN5 long_dashed
+userMarker 16361470373.44 M11 ID_GREEN5 long_dashed
+userMarker 16361149871.094 M10 ID_GREEN5 long_dashed
+userMarker 16361070000 mret_0 ID_GREEN5 long_dashed
+userMarker 16355269636.27 M8 ID_GREEN5 long_dashed
+userMarker 16354110000 rtt_sch ID_GREEN5 long_dashed
+userMarker 16347331589.175 M7 ID_GREEN5 long_dashed
+userMarker 16328350000 M6 ID_GREEN5 long_dashed
+userMarker 16323590000 SOFT_ENTRY ID_GREEN5 long_dashed
+userMarker 16292110264.975 M5 ID_GREEN5 long_dashed
+userMarker 16292250000 M4 ID_GREEN5 long_dashed
+userMarker 16291830000 M3 ID_GREEN5 long_dashed
+userMarker 16543770000 M2 ID_GREEN5 long_dashed
+userMarker 16550642984.745 M1 ID_GREEN5 long_dashed
+
+; visible top row signal index
+top 0
+; marker line index
+markerPos 16
+
+; event list
+; addEvent event_name event_expression
+; curEvent event_name
+
+
+
+COMPLEX_EVENT_BEGIN
+
+
+COMPLEX_EVENT_END
+
+
+
+; toolbar current search type
+; curSTATUS search_type
+curSTATUS ByValue
+
+
+addGroup "G1"
+activeDirFile "" "/nfs/home/wangqiang/work/tmp/2024.1.24/coreGen/simple_test/smoke_test/build/result/init_test/rtt_test.fsdb"
+addSignal -h 15 /tb_simple_system/u_coreGen_system/u_coreGen/u_coreGen/u_corewarp/io_irq_timer
+addSignal -h 15 -holdScope io_irq_software
+addSignal -h 15 -holdScope io_irq_external
+addGroup "G2"
+addSignal -c ID_ORANGE5 -ls solid -lw 1 -h 15 /tb_simple_system/u_coreGen_system/u_coreGen/u_coreGen/u_corewarp/io_moniter_pc[31:0]
+addSignal -h 15 -holdScope io_moniter_inst[31:0]
+addSignal -h 15 -holdScope io_moniter_mepc[31:0]
+addGroup "G3"
+addSignal -h 15 /tb_simple_system/u_coreGen_system/u_coreGen/u_coreGen/u_corewarp/u_chiselcore/register_file_i/rf_reg_1[31:0]
+addSignal -h 15 -holdScope rf_reg_3[31:0]
+addSignal -h 15 -holdScope rf_reg_4[31:0]
+addSignal -h 15 -holdScope rf_reg_5[31:0]
+addSignal -h 15 -holdScope rf_reg_6[31:0]
+addSignal -h 15 -holdScope rf_reg_7[31:0]
+addSignal -h 15 -holdScope rf_reg_8[31:0]
+addSignal -h 15 -holdScope rf_reg_9[31:0]
+addGroup "G4"
+addSignal -h 15 /tb_simple_system/u_coreGen_system/u_coreGen/u_coreGen/u_corewarp/io_irq_external
+addSignal -h 15 -holdScope io_irq_nmi
+addSignal -h 15 -holdScope io_irq_fast[15:0]
+addSignal -h 15 /tb_simple_system/u_coreGen_system/u_coreGen/u_coreGen/u_corewarp/u_chiselcore/u_ifu/instr_rdata_c_id_o[15:0]
+addGroup "G5"
+addSignal -h 15 /tb_simple_system/u_coreGen_system/u_coreGen/u_coreGen/u_corewarp/u_chiselcore/io_data_req_ready
+addSignal -h 15 -holdScope io_data_req_valid
+addSignal -h 15 -holdScope io_data_req_bits_addr[31:0]
+addSignal -h 15 -holdScope io_data_req_bits_we
+addSignal -h 15 -holdScope io_data_req_bits_be[3:0]
+addSignal -h 15 -holdScope io_data_req_bits_wdata[31:0]
+addSignal -h 15 -holdScope io_data_resp_valid
+addSignal -h 15 -holdScope io_data_resp_bits_err
+addSignal -h 15 -holdScope io_data_resp_bits_rdata[31:0]
+addGroup "G6"
+addSignal -h 15 /tb_simple_system/u_coreGen_system/u_coreGen/u_coreGen/u_bmu/io_dtcm_0_cen
+addSignal -h 15 -holdScope io_dtcm_0_wen
+addSignal -h 15 -holdScope io_dtcm_0_addr[31:0]
+addSignal -h 15 -holdScope io_dtcm_0_wdata[38:0]
+addSignal -h 15 -holdScope io_dtcm_0_rdata[38:0]
+addGroup "G7"
+addSignal -h 15 /tb_simple_system/u_coreGen_system/u_coreGen/u_coreGen/u_bmu/io_dtcm_1_cen
+addSignal -h 15 -holdScope io_dtcm_1_wen
+addSignal -h 15 -holdScope io_dtcm_1_addr[31:0]
+addSignal -h 15 -holdScope io_dtcm_1_wdata[38:0]
+addSignal -h 15 -holdScope io_dtcm_1_rdata[38:0]
+addGroup "G8"
+addSignal -h 15 /tb_simple_system/u_coreGen_system/u_dtcm1/ram[2047:0]
+addGroup "G9"
+addSignal -h 15 -UNSIGNED -HEX /tb_simple_system/u_coreGen_system/u_dtcm1/addr[13:0]
+addSignal -h 15 -holdScope ram[2047:0]
+addGroup "G10"
+addSignal -expanded -h 15 /tb_simple_system/u_coreGen_system/u_dtcm1/ram[171][7:0]
+addSignal -h 15 -holdScope ram[171][7][38:0]
+addSignal -h 15 -holdScope ram[171][6][38:0]
+addSignal -h 15 -holdScope ram[171][5][38:0]
+addSignal -h 15 -holdScope ram[171][4][38:0]
+addSignal -h 15 -holdScope ram[171][3][38:0]
+addSignal -h 15 -holdScope ram[171][2][38:0]
+addSignal -h 15 -holdScope ram[171][1][38:0]
+addSignal -h 15 -holdScope ram[171][0][38:0]
+addGroup "G11"
+
+; getSignalForm Scope Hierarchy Status
+; active file of getSignalForm
+

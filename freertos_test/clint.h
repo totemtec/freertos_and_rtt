@@ -1,0 +1,1 @@
+void clint_init(void);

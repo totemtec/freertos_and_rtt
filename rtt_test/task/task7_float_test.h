@@ -1,0 +1,1 @@
+int float_test_error();

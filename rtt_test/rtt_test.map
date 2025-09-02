@@ -1,0 +1,1440 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
+                              task/task1_big.o (memset)
+/home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+                              task/task1_big.o (strlen)
+
+Discarded input sections
+
+ .data          0x00000000        0x0 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+ .bss           0x00000000        0x0 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+ .data          0x00000000        0x0 myrtt/libcpu/risc-v/coregen_port/interrupt_gcc.o
+ .bss           0x00000000        0x0 myrtt/libcpu/risc-v/coregen_port/interrupt_gcc.o
+ .text          0x00000000       0x14 Atom.o
+ .data          0x00000000        0x0 Atom.o
+ .bss           0x00000000        0x0 Atom.o
+ .riscv.attributes
+                0x00000000       0xcf Atom.o
+ .text          0x00000000       0x24 task_rvv/vec-vadd.o
+ .data          0x00000000        0x0 task_rvv/vec-vadd.o
+ .bss           0x00000000        0x0 task_rvv/vec-vadd.o
+ .riscv.attributes
+                0x00000000       0xcf task_rvv/vec-vadd.o
+ .text          0x00000000       0x24 task_rvv/vec-vmul.o
+ .data          0x00000000        0x0 task_rvv/vec-vmul.o
+ .bss           0x00000000        0x0 task_rvv/vec-vmul.o
+ .riscv.attributes
+                0x00000000       0xcf task_rvv/vec-vmul.o
+ .text          0x00000000        0x0 common/start.o
+ .data          0x00000000        0x0 common/start.o
+ .bss           0x00000000        0x0 common/start.o
+ .text          0x00000000        0x0 clint.o
+ .data          0x00000000        0x0 clint.o
+ .bss           0x00000000        0x0 clint.o
+ .text.CLINT_mtime_write_tmp
+                0x00000000       0x46 clint.o
+ .text.CLINT_mtime_cmp_read
+                0x00000000       0x5e clint.o
+ .text.simple_exc_handler_fast
+                0x00000000      0x27e clint.o
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .sbss.my_main_thread
+                0x00000000        0x4 main.o
+ .sbss.tshow    0x00000000        0x4 main.o
+ .bss.thread8_stack
+                0x00000000      0x7e8 main.o
+ .bss.thread8_pcb
+                0x00000000       0x78 main.o
+ .text.thread8  0x00000000       0x7a main.o
+ .bss.thread9_stack
+                0x00000000      0x7e8 main.o
+ .bss.thread9_pcb
+                0x00000000       0x78 main.o
+ .text.thread9  0x00000000       0x7a main.o
+ .text.close_plic_ie
+                0x00000000       0x3e main.o
+ .sdata.ptick   0x00000000        0x4 main.o
+ .sbss.plic_irq_base_mie
+                0x00000000        0x4 main.o
+ .sbss.plic_irq_base_mepc
+                0x00000000        0x4 main.o
+ .sbss.plic_irq_base_thr
+                0x00000000        0x4 main.o
+ .text.plic_irq_vec_handler_1_fast
+                0x00000000      0x2a2 main.o
+ .text          0x00000000        0x0 plic.o
+ .data          0x00000000        0x0 plic.o
+ .bss           0x00000000        0x0 plic.o
+ .text.external_handler
+                0x00000000      0x2d2 plic.o
+ .text.set_exit_handler
+                0x00000000       0x30 plic.o
+ .text.PLIC_set_priority
+                0x00000000       0x2e plic.o
+ .text.PLIC_get_pending
+                0x00000000       0x4e plic.o
+ .text.PLIC_enable_interrupt
+                0x00000000       0x5c plic.o
+ .text.PLIC_disable_interrupt
+                0x00000000       0x60 plic.o
+ .text.PLIC_set_completed
+                0x00000000       0x22 plic.o
+ .text.PLIC_init_core_csr
+                0x00000000       0x4e plic.o
+ .text.PASS     0x00000000       0x1a plic.o
+ .text.FAIL     0x00000000       0x1a plic.o
+ .text          0x00000000        0x0 task/task1_big.o
+ .data          0x00000000        0x0 task/task1_big.o
+ .bss           0x00000000        0x0 task/task1_big.o
+ .bss.temp      0x00000000      0x190 task/task1_big.o
+ .bss.temp2     0x00000000      0x190 task/task1_big.o
+ .text          0x00000000        0x0 task/task2_sort.o
+ .data          0x00000000        0x0 task/task2_sort.o
+ .bss           0x00000000        0x0 task/task2_sort.o
+ .text          0x00000000        0x0 task/task3_path.o
+ .data          0x00000000        0x0 task/task3_path.o
+ .bss           0x00000000        0x0 task/task3_path.o
+ .text          0x00000000        0x0 task/task4_maxs.o
+ .data          0x00000000        0x0 task/task4_maxs.o
+ .bss           0x00000000        0x0 task/task4_maxs.o
+ .text          0x00000000        0x0 task/task5_filter.o
+ .data          0x00000000        0x0 task/task5_filter.o
+ .bss           0x00000000        0x0 task/task5_filter.o
+ .text          0x00000000        0x0 task/task6_find.o
+ .data          0x00000000        0x0 task/task6_find.o
+ .bss           0x00000000        0x0 task/task6_find.o
+ .text          0x00000000        0x0 task/task7_float_test.o
+ .data          0x00000000        0x0 task/task7_float_test.o
+ .bss           0x00000000        0x0 task/task7_float_test.o
+ .text          0x00000000        0x0 myrtt/board.o
+ .data          0x00000000        0x0 myrtt/board.o
+ .bss           0x00000000        0x0 myrtt/board.o
+ .sbss.g_ticks  0x00000000        0x4 myrtt/board.o
+ .text._SysTick_Config
+                0x00000000       0x18 myrtt/board.o
+ .text.SysTick_Handler
+                0x00000000      0x294 myrtt/board.o
+ .text          0x00000000        0x0 myrtt/src/clock.o
+ .data          0x00000000        0x0 myrtt/src/clock.o
+ .bss           0x00000000        0x0 myrtt/src/clock.o
+ .text.rt_system_tick_init
+                0x00000000       0x12 myrtt/src/clock.o
+ .text.rt_tick_set
+                0x00000000       0x3c myrtt/src/clock.o
+ .text.rt_tick_from_millisecond
+                0x00000000       0xa0 myrtt/src/clock.o
+ .text          0x00000000        0x0 myrtt/src/components.o
+ .data          0x00000000        0x0 myrtt/src/components.o
+ .bss           0x00000000        0x0 myrtt/src/components.o
+ .text.rti_start
+                0x00000000       0x14 myrtt/src/components.o
+ .rti_fn.0      0x00000000        0x4 myrtt/src/components.o
+ .text          0x00000000        0x0 myrtt/src/cpu.o
+ .data          0x00000000        0x0 myrtt/src/cpu.o
+ .bss           0x00000000        0x0 myrtt/src/cpu.o
+ .comment       0x00000000       0x10 myrtt/src/cpu.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/cpu.o
+ .riscv.attributes
+                0x00000000       0xd1 myrtt/src/cpu.o
+ .text          0x00000000        0x0 myrtt/src/idle.o
+ .data          0x00000000        0x0 myrtt/src/idle.o
+ .bss           0x00000000        0x0 myrtt/src/idle.o
+ .text.rt_thread_idle_gethandler
+                0x00000000       0x1a myrtt/src/idle.o
+ .text          0x00000000        0x0 myrtt/src/ipc.o
+ .data          0x00000000        0x0 myrtt/src/ipc.o
+ .bss           0x00000000        0x0 myrtt/src/ipc.o
+ .text.rt_list_init
+                0x00000000       0x2c myrtt/src/ipc.o
+ .text.rt_list_insert_before
+                0x00000000       0x46 myrtt/src/ipc.o
+ .text.rt_list_isempty
+                0x00000000       0x2c myrtt/src/ipc.o
+ .text.rt_ipc_object_init
+                0x00000000       0x28 myrtt/src/ipc.o
+ .text.rt_ipc_list_suspend
+                0x00000000       0xd0 myrtt/src/ipc.o
+ .text.rt_ipc_list_resume
+                0x00000000       0x30 myrtt/src/ipc.o
+ .text.rt_ipc_list_resume_all
+                0x00000000       0x66 myrtt/src/ipc.o
+ .text.rt_sem_init
+                0x00000000       0x66 myrtt/src/ipc.o
+ .text.rt_sem_detach
+                0x00000000       0x36 myrtt/src/ipc.o
+ .text.rt_sem_take
+                0x00000000       0xf6 myrtt/src/ipc.o
+ .text.rt_sem_trytake
+                0x00000000       0x26 myrtt/src/ipc.o
+ .text.rt_sem_release
+                0x00000000       0x84 myrtt/src/ipc.o
+ .text.rt_sem_control
+                0x00000000       0x7c myrtt/src/ipc.o
+ .text.rt_mutex_init
+                0x00000000       0x74 myrtt/src/ipc.o
+ .text.rt_mutex_detach
+                0x00000000       0x36 myrtt/src/ipc.o
+ .text.rt_mutex_take
+                0x00000000      0x1a0 myrtt/src/ipc.o
+ .text.rt_mutex_release
+                0x00000000      0x158 myrtt/src/ipc.o
+ .text.rt_mutex_control
+                0x00000000       0x20 myrtt/src/ipc.o
+ .text.rt_mb_init
+                0x00000000       0x9e myrtt/src/ipc.o
+ .text.rt_mb_detach
+                0x00000000       0x48 myrtt/src/ipc.o
+ .text.rt_mb_send_wait
+                0x00000000      0x214 myrtt/src/ipc.o
+ .text.rt_mb_send
+                0x00000000       0x2e myrtt/src/ipc.o
+ .text.rt_mb_recv
+                0x00000000      0x212 myrtt/src/ipc.o
+ .text.rt_mb_control
+                0x00000000       0x8c myrtt/src/ipc.o
+ .comment       0x00000000       0x10 myrtt/src/ipc.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/ipc.o
+ .riscv.attributes
+                0x00000000       0xd1 myrtt/src/ipc.o
+ .text          0x00000000        0x0 myrtt/src/irq.o
+ .data          0x00000000        0x0 myrtt/src/irq.o
+ .bss           0x00000000        0x0 myrtt/src/irq.o
+ .text.rt_interrupt_get_nest
+                0x00000000       0x1e myrtt/src/irq.o
+ .text          0x00000000        0x0 myrtt/src/kservice.o
+ .data          0x00000000        0x0 myrtt/src/kservice.o
+ .bss           0x00000000        0x0 myrtt/src/kservice.o
+ .sbss.__rt_errno
+                0x00000000        0x4 myrtt/src/kservice.o
+ .text.rt_get_errno
+                0x00000000       0x4a myrtt/src/kservice.o
+ .text.rt_set_errno
+                0x00000000       0x58 myrtt/src/kservice.o
+ .text._rt_errno
+                0x00000000       0x4c myrtt/src/kservice.o
+ .text.rt_memcpy
+                0x00000000      0x15a myrtt/src/kservice.o
+ .text.rt_memmove
+                0x00000000       0xd0 myrtt/src/kservice.o
+ .text.rt_memcmp
+                0x00000000       0x80 myrtt/src/kservice.o
+ .text.rt_strstr
+                0x00000000       0x8e myrtt/src/kservice.o
+ .text.rt_strcasecmp
+                0x00000000       0xa8 myrtt/src/kservice.o
+ .text.rt_strncmp
+                0x00000000       0x72 myrtt/src/kservice.o
+ .text.rt_strcmp
+                0x00000000       0x64 myrtt/src/kservice.o
+ .text.rt_strnlen
+                0x00000000       0x5a myrtt/src/kservice.o
+ .text.rt_strlen
+                0x00000000       0x40 myrtt/src/kservice.o
+ .text.divide   0x00000000       0x8c myrtt/src/kservice.o
+ .text.skip_atoi
+                0x00000000       0x5a myrtt/src/kservice.o
+ .text.print_number
+                0x00000000      0x282 myrtt/src/kservice.o
+ .rodata        0x00000000        0x7 myrtt/src/kservice.o
+ .text.rt_vsnprintf
+                0x00000000      0x6ae myrtt/src/kservice.o
+ .text.rt_snprintf
+                0x00000000       0x60 myrtt/src/kservice.o
+ .text.rt_vsprintf
+                0x00000000       0x36 myrtt/src/kservice.o
+ .text.rt_sprintf
+                0x00000000       0x5a myrtt/src/kservice.o
+ .rodata.large_digits.1
+                0x00000000       0x11 myrtt/src/kservice.o
+ .rodata.small_digits.0
+                0x00000000       0x11 myrtt/src/kservice.o
+ .text          0x00000000        0x0 myrtt/src/mem.o
+ .data          0x00000000        0x0 myrtt/src/mem.o
+ .bss           0x00000000        0x0 myrtt/src/mem.o
+ .comment       0x00000000       0x10 myrtt/src/mem.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/mem.o
+ .riscv.attributes
+                0x00000000       0xd1 myrtt/src/mem.o
+ .text          0x00000000        0x0 myrtt/src/memheap.o
+ .data          0x00000000        0x0 myrtt/src/memheap.o
+ .bss           0x00000000        0x0 myrtt/src/memheap.o
+ .comment       0x00000000       0x10 myrtt/src/memheap.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/memheap.o
+ .riscv.attributes
+                0x00000000       0xd1 myrtt/src/memheap.o
+ .text          0x00000000        0x0 myrtt/src/mempool.o
+ .data          0x00000000        0x0 myrtt/src/mempool.o
+ .bss           0x00000000        0x0 myrtt/src/mempool.o
+ .comment       0x00000000       0x10 myrtt/src/mempool.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/mempool.o
+ .riscv.attributes
+                0x00000000       0xd1 myrtt/src/mempool.o
+ .text          0x00000000        0x0 myrtt/src/object.o
+ .data          0x00000000        0x0 myrtt/src/object.o
+ .bss           0x00000000        0x0 myrtt/src/object.o
+ .text.rt_system_object_init
+                0x00000000       0x12 myrtt/src/object.o
+ .text.rt_object_get_type
+                0x00000000       0x26 myrtt/src/object.o
+ .text.rt_object_find
+                0x00000000       0xba myrtt/src/object.o
+ .text          0x00000000        0x0 myrtt/src/scheduler.o
+ .data          0x00000000        0x0 myrtt/src/scheduler.o
+ .bss           0x00000000        0x0 myrtt/src/scheduler.o
+ .text.rt_critical_level
+                0x00000000       0x1e myrtt/src/scheduler.o
+ .text          0x00000000        0x0 myrtt/src/slab.o
+ .data          0x00000000        0x0 myrtt/src/slab.o
+ .bss           0x00000000        0x0 myrtt/src/slab.o
+ .comment       0x00000000       0x10 myrtt/src/slab.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/slab.o
+ .riscv.attributes
+                0x00000000       0xd1 myrtt/src/slab.o
+ .text          0x00000000        0x0 myrtt/src/thread.o
+ .data          0x00000000        0x0 myrtt/src/thread.o
+ .bss           0x00000000        0x0 myrtt/src/thread.o
+ .text.rt_thread_detach
+                0x00000000       0xa6 myrtt/src/thread.o
+ .text.rt_thread_sleep
+                0x00000000       0x90 myrtt/src/thread.o
+ .text.rt_thread_delay
+                0x00000000       0x24 myrtt/src/thread.o
+ .text.rt_thread_mdelay
+                0x00000000       0x34 myrtt/src/thread.o
+ .text.rt_thread_control
+                0x00000000       0xd8 myrtt/src/thread.o
+ .text.rt_thread_suspend
+                0x00000000       0x8a myrtt/src/thread.o
+ .text.rt_thread_find
+                0x00000000       0xae myrtt/src/thread.o
+ .text          0x00000000        0x0 myrtt/src/timer.o
+ .data          0x00000000        0x0 myrtt/src/timer.o
+ .bss           0x00000000        0x0 myrtt/src/timer.o
+ .text.rt_timer_list_next_timeout
+                0x00000000       0x3c myrtt/src/timer.o
+ .text.rt_timer_control
+                0x00000000       0xa6 myrtt/src/timer.o
+ .text.rt_timer_next_timeout_tick
+                0x00000000       0x24 myrtt/src/timer.o
+ .text          0x00000000        0x0 myrtt/libcpu/risc-v/common/cpuport.o
+ .data          0x00000000        0x0 myrtt/libcpu/risc-v/common/cpuport.o
+ .bss           0x00000000        0x0 myrtt/libcpu/risc-v/common/cpuport.o
+ .text.rt_hw_cpu_shutdown
+                0x00000000       0x2a myrtt/libcpu/risc-v/common/cpuport.o
+ .text          0x00000000        0x0 task_rvv/rvv_main.o
+ .data          0x00000000        0x0 task_rvv/rvv_main.o
+ .bss           0x00000000        0x0 task_rvv/rvv_main.o
+ .text.verify_int16
+                0x00000000      0x10a task_rvv/rvv_main.o
+ .data.input1_data
+                0x00000000       0xc8 task_rvv/rvv_main.o
+ .data.input2_data
+                0x00000000       0xc8 task_rvv/rvv_main.o
+ .data.verify_data
+                0x00000000       0xc8 task_rvv/rvv_main.o
+ .bss.static_mutex
+                0x00000000       0x24 task_rvv/rvv_main.o
+ .rodata        0x00000000        0x7 task_rvv/rvv_main.o
+ .text.rvv_init
+                0x00000000       0x30 task_rvv/rvv_main.o
+ .text.mux_get  0x00000000       0x28 task_rvv/rvv_main.o
+ .text.mux_release
+                0x00000000       0x24 task_rvv/rvv_main.o
+ .text.rvv_main_add
+                0x00000000       0x66 task_rvv/rvv_main.o
+ .text.rvv_main_mul
+                0x00000000       0xc8 task_rvv/rvv_main.o
+ .comment       0x00000000       0x10 task_rvv/rvv_main.o
+ .note.GNU-stack
+                0x00000000        0x0 task_rvv/rvv_main.o
+ .riscv.attributes
+                0x00000000       0xd1 task_rvv/rvv_main.o
+ .text          0x00000000        0x0 ../common/../lib/utils.o
+ .data          0x00000000        0x0 ../common/../lib/utils.o
+ .bss           0x00000000        0x0 ../common/../lib/utils.o
+ .text.get_cycle_value
+                0x00000000       0x6e ../common/../lib/utils.o
+ .text.busy_wait
+                0x00000000       0x82 ../common/../lib/utils.o
+ .text.delay_ms
+                0x00000000       0x40 ../common/../lib/utils.o
+ .rodata        0x00000000        0x5 ../common/../lib/utils.o
+ .text.catch_err
+                0x00000000       0x1a ../common/../lib/utils.o
+ .text          0x00000000        0x0 ../common/../lib/uart.o
+ .data          0x00000000        0x0 ../common/../lib/uart.o
+ .bss           0x00000000        0x0 ../common/../lib/uart.o
+ .sbss.outptr   0x00000000        0x4 ../common/../lib/uart.o
+ .text.enable_interrupts
+                0x00000000       0x1e ../common/../lib/uart.o
+ .text.set_global_interrupt_enable
+                0x00000000       0x2a ../common/../lib/uart.o
+ .sdata.exc_vectors
+                0x00000000        0x4 ../common/../lib/uart.o
+ .text.install_exception_handler
+                0x00000000       0xc2 ../common/../lib/uart.o
+ .text.uart_enable_rx_int
+                0x00000000       0x28 ../common/../lib/uart.o
+ .text.uart_in  0x00000000       0x36 ../common/../lib/uart.o
+ .uartif        0x00000000        0x4 ../common/../lib/uart.o
+ .sdata.FastuartPortIdx
+                0x00000000        0x4 ../common/../lib/uart.o
+ .text.getchar  0x00000000       0x20 ../common/../lib/uart.o
+ .text.puts     0x00000000       0x3e ../common/../lib/uart.o
+ .text.puthex   0x00000000       0x76 ../common/../lib/uart.o
+ .sbss.ttt      0x00000000        0x4 ../common/../lib/uart.o
+ .bss.my_buffer
+                0x00000000      0x3e8 ../common/../lib/uart.o
+ .sbss.my_idx   0x00000000        0x4 ../common/../lib/uart.o
+ .text.my_putchar_a
+                0x00000000       0x32 ../common/../lib/uart.o
+ .text.my_show  0x00000000       0x4e ../common/../lib/uart.o
+ .text.ee_printf_info
+                0x00000000       0xc6 ../common/../lib/uart.o
+ .text          0x00000000        0x0 ../common/../lib/htif.o
+ .data          0x00000000        0x0 ../common/../lib/htif.o
+ .bss           0x00000000        0x0 ../common/../lib/htif.o
+ .htif          0x00000000       0x10 ../common/../lib/htif.o
+ .sbss.htif_console_buf
+                0x00000000        0x4 ../common/../lib/htif.o
+ .sbss.htif_lock
+                0x00000000        0x4 ../common/../lib/htif.o
+ .sbss.htif     0x00000000        0x4 ../common/../lib/htif.o
+ .text.__check_fromhost
+                0x00000000       0x86 ../common/../lib/htif.o
+ .text.__set_tohost
+                0x00000000       0x64 ../common/../lib/htif.o
+ .text.htif_console_getchar
+                0x00000000       0x14 ../common/../lib/htif.o
+ .text.do_tohost_fromhost
+                0x00000000       0xee ../common/../lib/htif.o
+ .text.htif_syscall
+                0x00000000       0x28 ../common/../lib/htif.o
+ .text.htif_console_putchar
+                0x00000000       0x62 ../common/../lib/htif.o
+ .text.htif_poweroff
+                0x00000000       0x18 ../common/../lib/htif.o
+ .comment       0x00000000       0x10 ../common/../lib/htif.o
+ .note.GNU-stack
+                0x00000000        0x0 ../common/../lib/htif.o
+ .riscv.attributes
+                0x00000000       0xd1 ../common/../lib/htif.o
+ .data          0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
+ .text          0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+ .data          0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+ .bss           0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+itcm             0x00000000         0x00020000
+dtcm             0x00020000         0x00018000
+stack            0x00038000         0x00008000
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+LOAD myrtt/libcpu/risc-v/coregen_port/interrupt_gcc.o
+LOAD Atom.o
+LOAD task_rvv/vec-vadd.o
+LOAD task_rvv/vec-vmul.o
+LOAD common/start.o
+LOAD clint.o
+LOAD main.o
+LOAD plic.o
+LOAD task/task1_big.o
+LOAD task/task2_sort.o
+LOAD task/task3_path.o
+LOAD task/task4_maxs.o
+LOAD task/task5_filter.o
+LOAD task/task6_find.o
+LOAD task/task7_float_test.o
+LOAD myrtt/board.o
+LOAD myrtt/src/clock.o
+LOAD myrtt/src/components.o
+LOAD myrtt/src/cpu.o
+LOAD myrtt/src/idle.o
+LOAD myrtt/src/ipc.o
+LOAD myrtt/src/irq.o
+LOAD myrtt/src/kservice.o
+LOAD myrtt/src/mem.o
+LOAD myrtt/src/memheap.o
+LOAD myrtt/src/mempool.o
+LOAD myrtt/src/object.o
+LOAD myrtt/src/scheduler.o
+LOAD myrtt/src/slab.o
+LOAD myrtt/src/thread.o
+LOAD myrtt/src/timer.o
+LOAD myrtt/libcpu/risc-v/common/cpuport.o
+LOAD task_rvv/rvv_main.o
+LOAD ../common/../lib/utils.o
+LOAD ../common/../lib/uart.o
+LOAD ../common/../lib/htif.o
+LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/libgcc.a
+START GROUP
+LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a
+LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libgloss.a
+END GROUP
+LOAD /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/libgcc.a
+                0x00008000                        _stack_len = LENGTH (stack)
+                0x00040000                        _stack_start = (ORIGIN (stack) + LENGTH (stack))
+                0x00040000                        _stack_end = (ORIGIN (stack) + LENGTH (stack))
+
+.text           0x00000000     0x7164
+ *(.text.start)
+ .text.start    0x00000000     0x1304 common/start.o
+                0x00000000                __start
+                0x000000cc                default_exc_handler
+                0x00000300                vector_table
+                0x00001000                _plic_vector_table
+                0x00001204                hw_interrupt_disable
+                0x0000120a                hw_interrupt_enable
+ *(.text*)
+ .text          0x00001304      0x154 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+                0x00001304                rt_hw_interrupt_disable
+                0x0000130a                rt_hw_interrupt_enable
+                0x00001310                rt_hw_context_switch_to
+                0x00001328                rt_hw_context_switch
+                0x000013c0                rt_hw_context_switch_exit
+ .text          0x00001458      0x162 myrtt/libcpu/risc-v/coregen_port/interrupt_gcc.o
+                0x00001458                SW_Handler
+ .text.handle_trap_timer
+                0x000015ba       0x3c clint.o
+                0x000015ba                handle_trap_timer
+ .text.handle_trap_software
+                0x000015f6       0x36 clint.o
+                0x000015f6                handle_trap_software
+ .text.clint_csr_cfg
+                0x0000162c       0x4e clint.o
+                0x0000162c                clint_csr_cfg
+ .text.clint_disable
+                0x0000167a       0x16 clint.o
+                0x0000167a                clint_disable
+ .text.CLINT_mtime_read
+                0x00001690       0x5c clint.o
+                0x00001690                CLINT_mtime_read
+ .text.CLINT_msip_write
+                0x000016ec       0x22 clint.o
+                0x000016ec                CLINT_msip_write
+ .text.CLINT_mtime_cmp_write
+                0x0000170e       0x76 clint.o
+                0x0000170e                CLINT_mtime_cmp_write
+ .text.clint_init
+                0x00001784       0x22 clint.o
+                0x00001784                clint_init
+ .text.simple_exc_handler
+                0x000017a6       0x3c clint.o
+                0x000017a6                simple_exc_handler
+ .text.get_mcause
+                0x000017e2       0x1e clint.o
+                0x000017e2                get_mcause
+ .text.entry_init
+                0x00001800       0x18 main.o
+                0x00001800                entry_init
+ .text.timeout1
+                0x00001818       0x32 main.o
+                0x00001818                timeout1
+ .text.timeout2
+                0x0000184a       0x16 main.o
+                0x0000184a                timeout2
+ .text.thread1  0x00001860       0x52 main.o
+                0x00001860                thread1
+ .text.thread2  0x000018b2       0xb2 main.o
+                0x000018b2                thread2
+ .text.thread3  0x00001964       0x52 main.o
+                0x00001964                thread3
+ .text.thread4  0x000019b6       0xb2 main.o
+                0x000019b6                thread4
+ .text.thread5  0x00001a68       0x52 main.o
+                0x00001a68                thread5
+ .text.thread6  0x00001aba       0x52 main.o
+                0x00001aba                thread6
+ .text.thread7  0x00001b0c      0x15a main.o
+                0x00001b0c                thread7
+ .text.open_ie  0x00001c66       0x2e main.o
+                0x00001c66                open_ie
+ .text.close_ie
+                0x00001c94       0x3a main.o
+                0x00001c94                close_ie
+ .text.clear_mie
+                0x00001cce       0x16 main.o
+                0x00001cce                clear_mie
+ .text.set_mmode
+                0x00001ce4       0x1c main.o
+                0x00001ce4                set_mmode
+ .text.plic_init
+                0x00001d00       0x8c main.o
+                0x00001d00                plic_init
+ .text.open_plic_ie
+                0x00001d8c       0x32 main.o
+                0x00001d8c                open_plic_ie
+ .text.plic_irq_base_handler
+                0x00001dbe      0x100 main.o
+                0x00001dbe                plic_irq_base_handler
+ .text.irq_test_delay
+                0x00001ebe       0x1e main.o
+                0x00001ebe                irq_test_delay
+ .text.plic_irq_vec_handler_0
+                0x00001edc       0xa8 main.o
+                0x00001edc                plic_irq_vec_handler_0
+ .text.plic_irq_vec_handler_1
+                0x00001f84       0xb0 main.o
+                0x00001f84                plic_irq_vec_handler_1
+ .text.plic_irq_vec_handler_2
+                0x00002034       0xb0 main.o
+                0x00002034                plic_irq_vec_handler_2
+ .text.plic_irq_vec_handler_3
+                0x000020e4       0xb2 main.o
+                0x000020e4                plic_irq_vec_handler_3
+ .text.plic_irq_vec_handler_4
+                0x00002196       0xb2 main.o
+                0x00002196                plic_irq_vec_handler_4
+ .text.plic_irq_vec_handler_5
+                0x00002248       0xb2 main.o
+                0x00002248                plic_irq_vec_handler_5
+ .text.plic_irq_vec_handler_6
+                0x000022fa       0xb2 main.o
+                0x000022fa                plic_irq_vec_handler_6
+ .text.plic_irq_vec_handler_7
+                0x000023ac       0xb2 main.o
+                0x000023ac                plic_irq_vec_handler_7
+ .text.plic_irq_vec_handler_8
+                0x0000245e       0xb2 main.o
+                0x0000245e                plic_irq_vec_handler_8
+ .text.plic_irq_vec_handler_9
+                0x00002510       0xb2 main.o
+                0x00002510                plic_irq_vec_handler_9
+ .text.thread_m
+                0x000025c2       0xc4 main.o
+                0x000025c2                thread_m
+ .text.main     0x00002686      0x210 main.o
+                0x00002686                main
+ .text.ext_int_default_interrupt_handler
+                0x00002896       0x12 plic.o
+                0x00002896                ext_int_default_interrupt_handler
+ .text.PLIC_init
+                0x000028a8       0xa8 plic.o
+                0x000028a8                PLIC_init
+ .text.PLIC_set_threshold
+                0x00002950       0x20 plic.o
+                0x00002950                PLIC_set_threshold
+ .text.PLIC_get_threshold
+                0x00002970       0x18 plic.o
+                0x00002970                PLIC_get_threshold
+ .text.PLIC_get_claim
+                0x00002988       0x1a plic.o
+                0x00002988                PLIC_get_claim
+ .text.PLIC_sourceX_cfg
+                0x000029a2       0x74 plic.o
+                0x000029a2                PLIC_sourceX_cfg
+ .text.set_tmp_data
+                0x00002a16       0x82 task/task1_big.o
+                0x00002a16                set_tmp_data
+ .text.big_max  0x00002a98       0x30 task/task1_big.o
+                0x00002a98                big_max
+ .text.setZero  0x00002ac8       0x48 task/task1_big.o
+                0x00002ac8                setZero
+ .text.compare  0x00002b10       0xde task/task1_big.o
+                0x00002b10                compare
+ .text.copy     0x00002bee       0xa8 task/task1_big.o
+                0x00002bee                copy
+ .text.big_add  0x00002c96      0x25a task/task1_big.o
+                0x00002c96                big_add
+ .text.big_sub  0x00002ef0      0x3e0 task/task1_big.o
+                0x00002ef0                big_sub
+ .text.big_mul  0x000032d0      0x2cc task/task1_big.o
+                0x000032d0                big_mul
+ .text.big_div  0x0000359c      0x39a task/task1_big.o
+                0x0000359c                big_div
+ .text.task_big
+                0x00003936      0x114 task/task1_big.o
+                0x00003936                task_big
+ .text.swap     0x00003a4a       0x42 task/task2_sort.o
+                0x00003a4a                swap
+ .text.BubSort_main
+                0x00003a8c      0x18e task/task2_sort.o
+                0x00003a8c                BubSort_main
+ .text.task_search
+                0x00003c1a       0xbe task/task3_path.o
+                0x00003c1a                task_search
+ .text.search_path
+                0x00003cd8      0x14a task/task3_path.o
+                0x00003cd8                search_path
+ .text.maxSum_1
+                0x00003e22       0xdc task/task4_maxs.o
+                0x00003e22                maxSum_1
+ .text.task_maxs
+                0x00003efe       0xb2 task/task4_maxs.o
+                0x00003efe                task_maxs
+ .text.middleFilter
+                0x00003fb0      0x1a8 task/task5_filter.o
+                0x00003fb0                middleFilter
+ .text.task_filter
+                0x00004158       0x86 task/task5_filter.o
+                0x00004158                task_filter
+ .text.task_find
+                0x000041de       0x70 task/task6_find.o
+                0x000041de                task_find
+ .text.Find     0x0000424e       0x58 task/task6_find.o
+                0x0000424e                Find
+ .text.BinarySearch1
+                0x000042a6       0x9e task/task6_find.o
+                0x000042a6                BinarySearch1
+ .text.test_float_val
+                0x00004344       0x20 task/task7_float_test.o
+                0x00004344                test_float_val
+ .text.float_test_error
+                0x00004364      0x3b6 task/task7_float_test.o
+                0x00004364                float_test_error
+ .text.rt_hw_board_init
+                0x0000471a       0x16 myrtt/board.o
+                0x0000471a                rt_hw_board_init
+ .text.rt_tick_get
+                0x00004730       0x1a myrtt/src/clock.o
+                0x00004730                rt_tick_get
+ .text.rt_tick_increase
+                0x0000474a       0x5c myrtt/src/clock.o
+                0x0000474a                rt_tick_increase
+ .text.rti_board_start
+                0x000047a6       0x14 myrtt/src/components.o
+ .text.rti_board_end
+                0x000047ba       0x14 myrtt/src/components.o
+ .text.rti_end  0x000047ce       0x14 myrtt/src/components.o
+ .text.rt_components_board_init
+                0x000047e2       0x40 myrtt/src/components.o
+                0x000047e2                rt_components_board_init
+ .text.rt_components_init
+                0x00004822       0x40 myrtt/src/components.o
+                0x00004822                rt_components_init
+ .text.entry    0x00004862       0x16 myrtt/src/components.o
+                0x00004862                entry
+ .text.main_thread_entry
+                0x00004878       0x20 myrtt/src/components.o
+                0x00004878                main_thread_entry
+ .text.rt_application_init
+                0x00004898       0x54 myrtt/src/components.o
+                0x00004898                rt_application_init
+ .text.rtthread_startup
+                0x000048ec       0x36 myrtt/src/components.o
+                0x000048ec                rtthread_startup
+ .text.rt_list_remove
+                0x00004922       0x48 myrtt/src/idle.o
+ .text._has_defunct_thread
+                0x0000496a       0x34 myrtt/src/idle.o
+ .text.rt_thread_idle_excute
+                0x0000499e       0x9c myrtt/src/idle.o
+                0x0000499e                rt_thread_idle_excute
+ .text.rt_thread_idle_entry
+                0x00004a3a       0x12 myrtt/src/idle.o
+ .text.rt_thread_idle_init
+                0x00004a4c       0x4e myrtt/src/idle.o
+                0x00004a4c                rt_thread_idle_init
+ .text.rt_interrupt_enter
+                0x00004a9a       0x3e myrtt/src/irq.o
+                0x00004a9a                rt_interrupt_enter
+ .text.rt_interrupt_leave
+                0x00004ad8       0x3e myrtt/src/irq.o
+                0x00004ad8                rt_interrupt_leave
+ .text.rt_memset
+                0x00004b16      0x126 myrtt/src/kservice.o
+                0x00004b16                rt_memset
+ .text.rt_strncpy
+                0x00004c3c       0x92 myrtt/src/kservice.o
+                0x00004c3c                rt_strncpy
+ .text.rt_show_version
+                0x00004cce       0x12 myrtt/src/kservice.o
+                0x00004cce                rt_show_version
+ .text.__rt_ffs
+                0x00004ce0       0xa4 myrtt/src/kservice.o
+                0x00004ce0                __rt_ffs
+ .text.rt_list_insert_after
+                0x00004d84       0x46 myrtt/src/object.o
+ .text.rt_list_remove
+                0x00004dca       0x48 myrtt/src/object.o
+ .text.rt_object_get_information
+                0x00004e12       0x60 myrtt/src/object.o
+                0x00004e12                rt_object_get_information
+ .text.rt_object_init
+                0x00004e72       0xb4 myrtt/src/object.o
+                0x00004e72                rt_object_init
+ .text.rt_object_detach
+                0x00004f26       0x3c myrtt/src/object.o
+                0x00004f26                rt_object_detach
+ .text.rt_object_is_systemobject
+                0x00004f62       0x2c myrtt/src/object.o
+                0x00004f62                rt_object_is_systemobject
+ .text.rt_list_init
+                0x00004f8e       0x2c myrtt/src/scheduler.o
+ .text.rt_list_insert_before
+                0x00004fba       0x46 myrtt/src/scheduler.o
+ .text.rt_list_remove
+                0x00005000       0x48 myrtt/src/scheduler.o
+ .text.rt_list_isempty
+                0x00005048       0x2c myrtt/src/scheduler.o
+ .text.rt_system_scheduler_init
+                0x00005074       0x66 myrtt/src/scheduler.o
+                0x00005074                rt_system_scheduler_init
+ .text.rt_system_scheduler_start
+                0x000050da       0x52 myrtt/src/scheduler.o
+                0x000050da                rt_system_scheduler_start
+ .text.rt_schedule
+                0x0000512c       0xd0 myrtt/src/scheduler.o
+                0x0000512c                rt_schedule
+ .text.rt_schedule_insert_thread
+                0x000051fc       0x8a myrtt/src/scheduler.o
+                0x000051fc                rt_schedule_insert_thread
+ .text.rt_schedule_remove_thread
+                0x00005286       0x70 myrtt/src/scheduler.o
+                0x00005286                rt_schedule_remove_thread
+ .text.rt_enter_critical
+                0x000052f6       0x44 myrtt/src/scheduler.o
+                0x000052f6                rt_enter_critical
+ .text.rt_exit_critical
+                0x0000533a       0x6c myrtt/src/scheduler.o
+                0x0000533a                rt_exit_critical
+ .text.rt_list_init
+                0x000053a6       0x2c myrtt/src/thread.o
+ .text.rt_list_insert_after
+                0x000053d2       0x46 myrtt/src/thread.o
+ .text.rt_list_insert_before
+                0x00005418       0x46 myrtt/src/thread.o
+ .text.rt_list_remove
+                0x0000545e       0x48 myrtt/src/thread.o
+ .text.rt_thread_exit
+                0x000054a6       0x8a myrtt/src/thread.o
+                0x000054a6                rt_thread_exit
+ .text._rt_thread_init
+                0x00005530      0x124 myrtt/src/thread.o
+ .text.rt_thread_init
+                0x00005654       0x6a myrtt/src/thread.o
+                0x00005654                rt_thread_init
+ .text.rt_thread_self
+                0x000056be       0x1a myrtt/src/thread.o
+                0x000056be                rt_thread_self
+ .text.rt_thread_startup
+                0x000056d8       0x5c myrtt/src/thread.o
+                0x000056d8                rt_thread_startup
+ .text.rt_thread_yield
+                0x00005734       0x90 myrtt/src/thread.o
+                0x00005734                rt_thread_yield
+ .text.rt_thread_resume
+                0x000057c4       0x60 myrtt/src/thread.o
+                0x000057c4                rt_thread_resume
+ .text.rt_thread_timeout
+                0x00005824       0x40 myrtt/src/thread.o
+                0x00005824                rt_thread_timeout
+ .text.rt_list_init
+                0x00005864       0x2c myrtt/src/timer.o
+ .text.rt_list_insert_after
+                0x00005890       0x46 myrtt/src/timer.o
+ .text.rt_list_remove
+                0x000058d6       0x48 myrtt/src/timer.o
+ .text.rt_list_isempty
+                0x0000591e       0x2c myrtt/src/timer.o
+ .text._rt_timer_init
+                0x0000594a       0xa0 myrtt/src/timer.o
+ .text._rt_timer_remove
+                0x000059ea       0x46 myrtt/src/timer.o
+ .text.rt_timer_init
+                0x00005a30       0x54 myrtt/src/timer.o
+                0x00005a30                rt_timer_init
+ .text.rt_timer_detach
+                0x00005a84       0x38 myrtt/src/timer.o
+                0x00005a84                rt_timer_detach
+ .text.rt_timer_start
+                0x00005abc      0x1fe myrtt/src/timer.o
+                0x00005abc                rt_timer_start
+ .text.rt_timer_stop
+                0x00005cba       0x56 myrtt/src/timer.o
+                0x00005cba                rt_timer_stop
+ .text.rt_timer_check
+                0x00005d10       0xd6 myrtt/src/timer.o
+                0x00005d10                rt_timer_check
+ .text.rt_system_timer_init
+                0x00005de6       0x42 myrtt/src/timer.o
+                0x00005de6                rt_system_timer_init
+ .text.rt_system_timer_thread_init
+                0x00005e28       0x12 myrtt/src/timer.o
+                0x00005e28                rt_system_timer_thread_init
+ .text.rt_hw_stack_init
+                0x00005e3a       0xaa myrtt/libcpu/risc-v/common/cpuport.o
+                0x00005e3a                rt_hw_stack_init
+ .text.sw_setpend
+                0x00005ee4       0x1a myrtt/libcpu/risc-v/common/cpuport.o
+                0x00005ee4                sw_setpend
+ .text.sw_clearpend
+                0x00005efe       0x18 myrtt/libcpu/risc-v/common/cpuport.o
+                0x00005efe                sw_clearpend
+ .text.rt_hw_context_switch_interrupt
+                0x00005f16       0x4a myrtt/libcpu/risc-v/common/cpuport.o
+                0x00005f16                rt_hw_context_switch_interrupt
+ .text.fpu_enable
+                0x00005f60       0x1c ../common/../lib/utils.o
+                0x00005f60                fpu_enable
+ .text.test_pass
+                0x00005f7c       0x1a ../common/../lib/utils.o
+                0x00005f7c                test_pass
+ .text.test_fail
+                0x00005f96       0x1a ../common/../lib/utils.o
+                0x00005f96                test_fail
+ .text.test_delay
+                0x00005fb0       0x64 ../common/../lib/utils.o
+                0x00005fb0                test_delay
+ .text.check_iter
+                0x00006014       0x42 ../common/../lib/utils.o
+                0x00006014                check_iter
+ .text.uart_init
+                0x00006056       0x12 ../common/../lib/uart.o
+                0x00006056                uart_init
+ .text.uart_out
+                0x00006068       0x36 ../common/../lib/uart.o
+                0x00006068                uart_out
+ .text.putchar  0x0000609e       0x40 ../common/../lib/uart.o
+                0x0000609e                putchar
+ .text.strnlen  0x000060de       0x52 ../common/../lib/uart.o
+ .text.skip_atoi
+                0x00006130       0x70 ../common/../lib/uart.o
+ .text.number   0x000061a0      0x314 ../common/../lib/uart.o
+ .text.eaddr    0x000064b4      0x17e ../common/../lib/uart.o
+ .text.iaddr    0x00006632      0x29c ../common/../lib/uart.o
+ .text.ee_vsprintf
+                0x000068ce      0x5fe ../common/../lib/uart.o
+ .text.my_putchar
+                0x00006ecc       0x32 ../common/../lib/uart.o
+                0x00006ecc                my_putchar
+ .text.ee_printf
+                0x00006efe       0xae ../common/../lib/uart.o
+                0x00006efe                ee_printf
+ .text.ee_printf_a
+                0x00006fac       0xaa ../common/../lib/uart.o
+                0x00006fac                ee_printf_a
+ .text          0x00007056       0xa8 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
+                0x00007056                memset
+ .text.strlen   0x000070fe       0x64 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+                0x000070fe                strlen
+                0x00007164                        . = ALIGN (0x4)
+ *fill*         0x00007162        0x2 
+
+.uartif         0x00020000        0x0
+                [!provide]                        PROVIDE (__uartif_base = .)
+ *(.uartif)
+
+.rodata         0x00007164      0x48c
+                0x00007164                        . = ALIGN (0x4)
+ *(.srodata)
+ *(.srodata.*)
+ *(.rodata)
+ .rodata        0x00007164       0xc2 main.o
+ *fill*         0x00007226        0x2 
+ .rodata        0x00007228      0x166 task/task1_big.o
+ *fill*         0x0000738e        0x2 
+ .rodata        0x00007390       0x21 task/task2_sort.o
+ *fill*         0x000073b1        0x3 
+ .rodata        0x000073b4       0x1b task/task3_path.o
+ *fill*         0x000073cf        0x1 
+ .rodata        0x000073d0       0x3c task/task4_maxs.o
+ .rodata        0x0000740c        0xc task/task5_filter.o
+ .rodata        0x00007418       0x15 task/task6_find.o
+ *fill*         0x0000742d        0x3 
+ .rodata        0x00007430       0x58 task/task7_float_test.o
+ .rodata        0x00007488        0x5 myrtt/src/components.o
+ *fill*         0x0000748d        0x3 
+ .rodata        0x00007490        0x6 myrtt/src/idle.o
+ *fill*         0x00007496        0x2 
+ .rodata        0x00007498       0x57 ../common/../lib/uart.o
+ *(.rodata.*)
+ *fill*         0x000074ef        0x1 
+ .rodata.__lowest_bit_bitmap
+                0x000074f0      0x100 myrtt/src/kservice.o
+                0x000074f0                __lowest_bit_bitmap
+
+.rti_fn.0.end   0x000075f0        0x4
+ .rti_fn.0.end  0x000075f0        0x4 myrtt/src/components.o
+                0x000075f0                __rt_init_rti_board_start
+
+.rti_fn.1.end   0x000075f4        0x4
+ .rti_fn.1.end  0x000075f4        0x4 myrtt/src/components.o
+                0x000075f4                __rt_init_rti_board_end
+
+.rti_fn.6.end   0x000075f8        0x4
+ .rti_fn.6.end  0x000075f8        0x4 myrtt/src/components.o
+                0x000075f8                __rt_init_rti_end
+
+.rela.dyn       0x000075fc        0x0
+ .rela.text     0x000075fc        0x0 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+ .rela.text.start
+                0x000075fc        0x0 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+
+.htif           0x00020000        0x0
+                [!provide]                        PROVIDE (__htif_base = .)
+ *(.htif)
+                0x00020000                        . = ALIGN (0x1000)
+
+.data           0x00020000       0xcc
+                0x00020000                        . = ALIGN (0x4)
+                0x00020800                        //__global_pointer$ = (. + 0x800)
+ *(.sdata)
+ *(.sdata.*)
+ .sdata.digits  0x00020000        0x4 ../common/../lib/uart.o
+ .sdata.upper_digits
+                0x00020004        0x4 ../common/../lib/uart.o
+ .sdata.ee_open
+                0x00020008        0x4 ../common/../lib/uart.o
+                0x00020008                ee_open
+ *(.data)
+ *(.data.*)
+ .data.sarr     0x0002000c       0x18 task/task2_sort.o
+                0x0002000c                sarr
+ .data.fx       0x00020024       0x14 task/task3_path.o
+                0x00020024                fx
+ .data.fy       0x00020038       0x14 task/task3_path.o
+                0x00020038                fy
+ .data.fa       0x0002004c       0x30 task/task6_find.o
+                0x0002004c                fa
+ .data.rt_object_container
+                0x0002007c       0x50 myrtt/src/object.o
+
+.myinterrupt    0x000200cc      0x804
+                0x000200d0                        . = ALIGN (0x10)
+ *fill*         0x000200cc        0x4 
+                0x000200d0                        _myinterrupt_start = .
+                0x000208d0                        . = (. + 0x800)
+ *fill*         0x000200d0      0x800 
+                0x000208d0                        _myinterrupt_end = .
+                0x000208d0                        __freertos_irq_stack_top = .
+
+.bss            0x000208d0     0x5dd0
+                0x000208d0                        . = ALIGN (0x4)
+                0x000208d0                        _bss_start = .
+ *(.sbss)
+ *(.sbss.*)
+ .sbss.timer_num1
+                0x000208d0        0x4 clint.o
+                0x000208d0                timer_num1
+ .sbss.g_tick   0x000208d4        0x4 main.o
+                0x000208d4                g_tick
+ .sbss.ok_num   0x000208d8        0x4 main.o
+                0x000208d8                ok_num
+ .sbss.t1_err   0x000208dc        0x4 main.o
+                0x000208dc                t1_err
+ .sbss.t2_err   0x000208e0        0x4 main.o
+                0x000208e0                t2_err
+ .sbss.t3_err   0x000208e4        0x4 main.o
+                0x000208e4                t3_err
+ .sbss.t4_err   0x000208e8        0x4 main.o
+                0x000208e8                t4_err
+ .sbss.t5_err   0x000208ec        0x4 main.o
+                0x000208ec                t5_err
+ .sbss.t6_err   0x000208f0        0x4 main.o
+                0x000208f0                t6_err
+ .sbss.t7_err   0x000208f4        0x4 main.o
+                0x000208f4                t7_err
+ .sbss.t8_err   0x000208f8        0x4 main.o
+                0x000208f8                t8_err
+ .sbss.t9_err   0x000208fc        0x4 main.o
+                0x000208fc                t9_err
+ .sbss.ptick_t  0x00020900        0x4 main.o
+                0x00020900                ptick_t
+ .sbss.plic_irq0_mie
+                0x00020904        0x4 main.o
+                0x00020904                plic_irq0_mie
+ .sbss.plic_irq0_mepc
+                0x00020908        0x4 main.o
+                0x00020908                plic_irq0_mepc
+ .sbss.plic_irq0_thr
+                0x0002090c        0x4 main.o
+                0x0002090c                plic_irq0_thr
+ .sbss.plic_irq1_mie
+                0x00020910        0x4 main.o
+                0x00020910                plic_irq1_mie
+ .sbss.plic_irq1_mepc
+                0x00020914        0x4 main.o
+                0x00020914                plic_irq1_mepc
+ .sbss.plic_irq1_thr
+                0x00020918        0x4 main.o
+                0x00020918                plic_irq1_thr
+ .sbss.plic_irq2_mie
+                0x0002091c        0x4 main.o
+                0x0002091c                plic_irq2_mie
+ .sbss.plic_irq2_mepc
+                0x00020920        0x4 main.o
+                0x00020920                plic_irq2_mepc
+ .sbss.plic_irq2_thr
+                0x00020924        0x4 main.o
+                0x00020924                plic_irq2_thr
+ .sbss.plic_irq3_mie
+                0x00020928        0x4 main.o
+                0x00020928                plic_irq3_mie
+ .sbss.plic_irq3_mepc
+                0x0002092c        0x4 main.o
+                0x0002092c                plic_irq3_mepc
+ .sbss.plic_irq3_thr
+                0x00020930        0x4 main.o
+                0x00020930                plic_irq3_thr
+ .sbss.plic_irq4_mie
+                0x00020934        0x4 main.o
+                0x00020934                plic_irq4_mie
+ .sbss.plic_irq4_mepc
+                0x00020938        0x4 main.o
+                0x00020938                plic_irq4_mepc
+ .sbss.plic_irq4_thr
+                0x0002093c        0x4 main.o
+                0x0002093c                plic_irq4_thr
+ .sbss.plic_irq5_mie
+                0x00020940        0x4 main.o
+                0x00020940                plic_irq5_mie
+ .sbss.plic_irq5_mepc
+                0x00020944        0x4 main.o
+                0x00020944                plic_irq5_mepc
+ .sbss.plic_irq5_thr
+                0x00020948        0x4 main.o
+                0x00020948                plic_irq5_thr
+ .sbss.plic_irq6_mie
+                0x0002094c        0x4 main.o
+                0x0002094c                plic_irq6_mie
+ .sbss.plic_irq6_mepc
+                0x00020950        0x4 main.o
+                0x00020950                plic_irq6_mepc
+ .sbss.plic_irq6_thr
+                0x00020954        0x4 main.o
+                0x00020954                plic_irq6_thr
+ .sbss.plic_irq7_mie
+                0x00020958        0x4 main.o
+                0x00020958                plic_irq7_mie
+ .sbss.plic_irq7_mepc
+                0x0002095c        0x4 main.o
+                0x0002095c                plic_irq7_mepc
+ .sbss.plic_irq7_thr
+                0x00020960        0x4 main.o
+                0x00020960                plic_irq7_thr
+ .sbss.plic_irq8_mie
+                0x00020964        0x4 main.o
+                0x00020964                plic_irq8_mie
+ .sbss.plic_irq8_mepc
+                0x00020968        0x4 main.o
+                0x00020968                plic_irq8_mepc
+ .sbss.plic_irq8_thr
+                0x0002096c        0x4 main.o
+                0x0002096c                plic_irq8_thr
+ .sbss.plic_irq9_mie
+                0x00020970        0x4 main.o
+                0x00020970                plic_irq9_mie
+ .sbss.plic_irq9_mepc
+                0x00020974        0x4 main.o
+                0x00020974                plic_irq9_mepc
+ .sbss.plic_irq9_thr
+                0x00020978        0x4 main.o
+                0x00020978                plic_irq9_thr
+ .sbss.ck       0x0002097c        0x4 task/task2_sort.o
+ .sbss.n        0x00020980        0x4 task/task3_path.o
+                0x00020980                n
+ .sbss.m        0x00020984        0x4 task/task3_path.o
+                0x00020984                m
+ .sbss.ck       0x00020988        0x4 task/task3_path.o
+ .sbss.max      0x0002098c        0x4 task/task4_maxs.o
+                0x0002098c                max
+ .sbss.mi       0x00020990        0x4 task/task4_maxs.o
+                0x00020990                mi
+ .sbss.mj       0x00020994        0x4 task/task4_maxs.o
+                0x00020994                mj
+ .sbss.g_A      0x00020998        0x4 task/task7_float_test.o
+                0x00020998                g_A
+ .sbss.g_B      0x0002099c        0x4 task/task7_float_test.o
+                0x0002099c                g_B
+ .sbss.g_ADD    0x000209a0        0x4 task/task7_float_test.o
+                0x000209a0                g_ADD
+ .sbss.g_SUB    0x000209a4        0x4 task/task7_float_test.o
+                0x000209a4                g_SUB
+ .sbss.g_MUL    0x000209a8        0x4 task/task7_float_test.o
+                0x000209a8                g_MUL
+ .sbss.g_DIV    0x000209ac        0x4 task/task7_float_test.o
+                0x000209ac                g_DIV
+ .sbss.rt_tick  0x000209b0        0x4 myrtt/src/clock.o
+ .sbss.rt_interrupt_nest
+                0x000209b4        0x1 myrtt/src/irq.o
+                0x000209b4                rt_interrupt_nest
+ *fill*         0x000209b5        0x1 
+ .sbss.rt_scheduler_lock_nest
+                0x000209b6        0x2 myrtt/src/scheduler.o
+ .sbss.rt_current_thread
+                0x000209b8        0x4 myrtt/src/scheduler.o
+                0x000209b8                rt_current_thread
+ .sbss.rt_current_priority
+                0x000209bc        0x1 myrtt/src/scheduler.o
+                0x000209bc                rt_current_priority
+ *fill*         0x000209bd        0x3 
+ .sbss.rt_thread_ready_priority_group
+                0x000209c0        0x4 myrtt/src/scheduler.o
+                0x000209c0                rt_thread_ready_priority_group
+ .sbss.rt_thread_defunct
+                0x000209c4        0x8 myrtt/src/scheduler.o
+                0x000209c4                rt_thread_defunct
+ .sbss.rt_timer_list
+                0x000209cc        0x8 myrtt/src/timer.o
+ .sbss.random_nr.0
+                0x000209d4        0x4 myrtt/src/timer.o
+ .sbss.rt_interrupt_from_thread
+                0x000209d8        0x4 myrtt/libcpu/risc-v/common/cpuport.o
+                0x000209d8                rt_interrupt_from_thread
+ .sbss.rt_interrupt_to_thread
+                0x000209dc        0x4 myrtt/libcpu/risc-v/common/cpuport.o
+                0x000209dc                rt_interrupt_to_thread
+ .sbss.rt_thread_switch_interrupt_flag
+                0x000209e0        0x4 myrtt/libcpu/risc-v/common/cpuport.o
+                0x000209e0                rt_thread_switch_interrupt_flag
+ .sbss.mttt     0x000209e4        0x4 ../common/../lib/utils.o
+                0x000209e4                mttt
+ *(.bss)
+ *(.bss.*)
+ .bss.timer1    0x000209e8       0x2c main.o
+                0x000209e8                timer1
+ .bss.timer2    0x00020a14       0x2c main.o
+                0x00020a14                timer2
+ .bss.thread1_stack
+                0x00020a40      0x7e8 main.o
+                0x00020a40                thread1_stack
+ .bss.thread1_pcb
+                0x00021228       0x78 main.o
+                0x00021228                thread1_pcb
+ .bss.thread2_stack
+                0x000212a0      0x7d0 main.o
+                0x000212a0                thread2_stack
+ .bss.thread2_pcb
+                0x00021a70       0x78 main.o
+                0x00021a70                thread2_pcb
+ .bss.thread3_stack
+                0x00021ae8      0x7d0 main.o
+                0x00021ae8                thread3_stack
+ .bss.thread3_pcb
+                0x000222b8       0x78 main.o
+                0x000222b8                thread3_pcb
+ .bss.thread4_stack
+                0x00022330      0x7e8 main.o
+                0x00022330                thread4_stack
+ .bss.thread4_pcb
+                0x00022b18       0x78 main.o
+                0x00022b18                thread4_pcb
+ .bss.thread5_stack
+                0x00022b90      0x7e8 main.o
+                0x00022b90                thread5_stack
+ .bss.thread5_pcb
+                0x00023378       0x78 main.o
+                0x00023378                thread5_pcb
+ .bss.thread6_stack
+                0x000233f0      0x7e8 main.o
+                0x000233f0                thread6_stack
+ .bss.thread6_pcb
+                0x00023bd8       0x78 main.o
+                0x00023bd8                thread6_pcb
+ .bss.thread7_stack
+                0x00023c50      0x7e8 main.o
+                0x00023c50                thread7_stack
+ .bss.thread7_pcb
+                0x00024438       0x78 main.o
+                0x00024438                thread7_pcb
+ .bss.ext_int_func_ptr
+                0x000244b0      0x400 plic.o
+                0x000244b0                ext_int_func_ptr
+ .bss.a         0x000248b0      0x190 task/task1_big.o
+                0x000248b0                a
+ .bss.b         0x00024a40      0x190 task/task1_big.o
+                0x00024a40                b
+ .bss.c         0x00024bd0      0x190 task/task1_big.o
+                0x00024bd0                c
+ .bss.t         0x00024d60      0x190 task/task1_big.o
+                0x00024d60                t
+ .bss.map       0x00024ef0      0x640 task/task3_path.o
+                0x00024ef0                map
+ .bss.data      0x00025530       0x40 task/task5_filter.o
+                0x00025530                data
+ .bss.main_stack
+                0x00025570      0x800 myrtt/src/components.o
+ .bss.main_thread
+                0x00025d70       0x78 myrtt/src/components.o
+                0x00025d70                main_thread
+ .bss.idle      0x00025de8       0x78 myrtt/src/idle.o
+ .bss.rt_thread_stack
+                0x00025e60      0x800 myrtt/src/idle.o
+ .bss.rt_thread_priority_table
+                0x00026660       0x40 myrtt/src/scheduler.o
+                0x00026660                rt_thread_priority_table
+ *(COMMON)
+                0x000266a0                        _bss_end = .
+
+.stack          0x00038000        0x0
+                0x00038000                        . = ALIGN (0x4)
+                0x00038000                        stack = .
+                0x00038000                        _stack = .
+                0x00038000                        _end = .
+OUTPUT(rtt_test elf32-littleriscv)
+
+.riscv.attributes
+                0x00000000       0xd5
+ .riscv.attributes
+                0x00000000       0xd3 myrtt/libcpu/risc-v/coregen_port/context_gcc.o
+ .riscv.attributes
+                0x000000d3       0xd3 myrtt/libcpu/risc-v/coregen_port/interrupt_gcc.o
+ .riscv.attributes
+                0x000001a6       0xd3 common/start.o
+ .riscv.attributes
+                0x00000279       0xd5 clint.o
+ .riscv.attributes
+                0x0000034e       0xd5 main.o
+ .riscv.attributes
+                0x00000423       0xd5 plic.o
+ .riscv.attributes
+                0x000004f8       0xd1 task/task1_big.o
+ .riscv.attributes
+                0x000005c9       0xd1 task/task2_sort.o
+ .riscv.attributes
+                0x0000069a       0xd1 task/task3_path.o
+ .riscv.attributes
+                0x0000076b       0xd1 task/task4_maxs.o
+ .riscv.attributes
+                0x0000083c       0xd1 task/task5_filter.o
+ .riscv.attributes
+                0x0000090d       0xd1 task/task6_find.o
+ .riscv.attributes
+                0x000009de       0xd1 task/task7_float_test.o
+ .riscv.attributes
+                0x00000aaf       0xd5 myrtt/board.o
+ .riscv.attributes
+                0x00000b84       0xd1 myrtt/src/clock.o
+ .riscv.attributes
+                0x00000c55       0xd1 myrtt/src/components.o
+ .riscv.attributes
+                0x00000d26       0xd1 myrtt/src/idle.o
+ .riscv.attributes
+                0x00000df7       0xd1 myrtt/src/irq.o
+ .riscv.attributes
+                0x00000ec8       0xd1 myrtt/src/kservice.o
+ .riscv.attributes
+                0x00000f99       0xd1 myrtt/src/object.o
+ .riscv.attributes
+                0x0000106a       0xd1 myrtt/src/scheduler.o
+ .riscv.attributes
+                0x0000113b       0xd1 myrtt/src/thread.o
+ .riscv.attributes
+                0x0000120c       0xd1 myrtt/src/timer.o
+ .riscv.attributes
+                0x000012dd       0xd1 myrtt/libcpu/risc-v/common/cpuport.o
+ .riscv.attributes
+                0x000013ae       0xd5 ../common/../lib/utils.o
+ .riscv.attributes
+                0x00001483       0xd5 ../common/../lib/uart.o
+ .riscv.attributes
+                0x00001558       0x79 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-memset.o)
+ .riscv.attributes
+                0x000015d1       0x7b /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+
+.comment        0x00000000       0x21
+ .comment       0x00000000       0x21 clint.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 main.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 plic.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 task/task1_big.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 task/task2_sort.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 task/task3_path.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 task/task4_maxs.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 task/task5_filter.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 task/task6_find.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 task/task7_float_test.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/board.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/clock.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/components.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/idle.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/irq.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/kservice.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/object.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/scheduler.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/thread.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/src/timer.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 myrtt/libcpu/risc-v/common/cpuport.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 ../common/../lib/utils.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 ../common/../lib/uart.o
+                                 0x10 (size before relaxing)
+ .comment       0x00000021        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
+                                 0x13 (size before relaxing)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 clint.o
+ .note.GNU-stack
+                0x00000000        0x0 main.o
+ .note.GNU-stack
+                0x00000000        0x0 plic.o
+ .note.GNU-stack
+                0x00000000        0x0 task/task1_big.o
+ .note.GNU-stack
+                0x00000000        0x0 task/task2_sort.o
+ .note.GNU-stack
+                0x00000000        0x0 task/task3_path.o
+ .note.GNU-stack
+                0x00000000        0x0 task/task4_maxs.o
+ .note.GNU-stack
+                0x00000000        0x0 task/task5_filter.o
+ .note.GNU-stack
+                0x00000000        0x0 task/task6_find.o
+ .note.GNU-stack
+                0x00000000        0x0 task/task7_float_test.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/board.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/clock.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/components.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/idle.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/irq.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/kservice.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/object.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/scheduler.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/thread.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/src/timer.o
+ .note.GNU-stack
+                0x00000000        0x0 myrtt/libcpu/risc-v/common/cpuport.o
+ .note.GNU-stack
+                0x00000000        0x0 ../common/../lib/utils.o
+ .note.GNU-stack
+                0x00000000        0x0 ../common/../lib/uart.o
+ .note.GNU-stack
+                0x00000000        0x0 /home/yangn0/bao_hyp_bosc/tools/riscv32-unknown-elf-15.1.0-ubuntu-22.04/bin/../lib/gcc/riscv32-unknown-elf/15.1.0/../../../../riscv32-unknown-elf/lib/libc.a(libc_a-strlen.o)
