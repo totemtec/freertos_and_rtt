@@ -1,5 +1,5 @@
 RISCV_ARCH := rv32gcv
-RISCV_ABI := ilp32d
+RISCV_ABI := ilp32
 RISCV_MCMODEL := medlow
 
 
